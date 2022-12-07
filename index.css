@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1440px;
+    height: 3808px;
+
+}
+img logo{
+    margin-top: 153px;
+}
+.head h1{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.75px;
+    text-align: center;
+    margin-top: 56px;
+    color: #4C545C;
+    margin-bottom: 32px;
+}
+.icon{
+    text-align: center;
+}
+img{
+    align-items: center;
+}
+.head p{
+    font-family: 'Bai Jamjuree SemiBold';
+    color: #9EABB2;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons .one{
+    background:#26BBA4;
+    width: 227px;
+    height: 56px;
+    color: #fff;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.buttons .two{
+    background: #6174FF;
+    width: 227px;
+    height: 56px;
+    color: #fff;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 154px;
+
+}
+.middle h1{
+text-align: center;
+color: #4C545C;
+margin-bottom: 19px;
+}
+.middle p{
+    text-align:center;
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    color: #9EABB2;
+    margin-bottom: 69px;
+}
+.third{
+    display: flex;
+}
+.fourth{
+    margin-left: 82px;
+    margin-top: 76px;
+}
+.fourth h1{
+    font-family: 'Bai Jamjuree';
+    font-weight:600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.39;
+    color: #4C545C;
+    margin-bottom: 8px;
+
+}
+.fourth p{
+color: #9EABB2;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.12px;
+margin-bottom: 56px;
+font-family: 'Bai Jamjuree';
+height: 98px;
+width: 350px;
+margin-bottom: 146px;
+}
+.fifth{
+    text-align: center;
+    margin-top: 154px;
+    width: 730px;
+    margin-left: 341px;
+    margin-right: 369px;
+}
+.fifth h1{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #4C545C;
+    margin-bottom: 19px;
+}
+.fifth p{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9EABB2;
+    margin-bottom: 114px;
+}
+.sixth img{
+        margin-left: 314px;
+        width: 812px;
+        height: 475px;
+        margin-bottom: 161px;
+}
+.seventh{
+    width: 730px;
+    height: 94px;
+    margin-left: 354px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.seventh h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 19px;
+    color: #4C545C;
+    
+}
+.seventh p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9EABB2;
+    margin-bottom: 72px;
+    letter-spacing: 0.12px;
+    margin-right: 30px;
+}
+.eigth{
+    margin-left: 166px;
+    display: flex;
+    margin-bottom: 174px;
+}
+.eigth .first{
+    width: 350px;
+    height: 216px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.eigth .first img{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.eigth .first h1{
+    margin-bottom: 16px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4C545C;
+
+}
+.eigth .first p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#9EABB2;  
+}
+.ninth{
+    width: 1110px;
+    height: 72px;
+    margin-left: 165px;
+    display: flex;
+    margin-bottom: 122px;
+    
+}
+.ninth img{
+    margin-right: 94.4px;
+
+}
+.tenth{
+    width: 730px;
+    height: 228px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.tenth h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #4C545C;
+    margin-bottom: 19px;
+}
+.tenth p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    color: #9EABB2;
+    margin-bottom: 48px;
+}
+.eleventh{
+    background:#9EABB2;
+    opacity: 0.1;
+    margin-top: 150px;
+    
+
+}
+.eleventh  .whole{
+    display: block;
+}
+.eleventh .one{
+    margin-top: 48px;
+    display: flex;
+}
+.eleventh .one img{
+    margin-left: 165px;
+    margin-right: 135px;
+    margin-top: 39px;
+}
+.eleventh .two{
+    display: flex;
+    margin-top: 39px;
+}
+.eleventh .two h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 39px;
+    color: #4C545C;
+    margin-left: 30px;
+    margin-bottom: 24px;
+    letter-spacing: 0.135px;
+
+}
+.eleventh .three{
+    display: flex;
+    margin-left: 355px;
+    margin-bottom: 19px ;
+}
+.eleventh .three h1{
+font-family: 'Bai Jamjuree';
+font-weight: 400;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+color: #4C545C;
+margin-bottom: 19px;
+margin-left: 135px;
+width: 160px;
+height: 30px;
+letter-spacing: 0.135px;
+}
