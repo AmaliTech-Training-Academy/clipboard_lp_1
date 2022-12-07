@@ -232,8 +232,11 @@ margin-bottom: 146px;
     background:#9EABB2;
     opacity: 0.1;
     margin-top: 150px;
-    display: block;
+    
 
+}
+.eleventh  .whole{
+    display: block;
 }
 .eleventh .one{
     margin-top: 48px;
@@ -256,8 +259,25 @@ margin-bottom: 146px;
     margin-top: 39px;
     color: #4C545C;
     margin-left: 30px;
+    margin-bottom: 24px;
+    letter-spacing: 0.135px;
 
 }
 .eleventh .three{
     display: flex;
+    margin-left: 355px;
+    margin-bottom: 19px ;
+}
+.eleventh .three h1{
+font-family: 'Bai Jamjuree';
+font-weight: 400;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+color: #4C545C;
+margin-bottom: 19px;
+margin-left: 135px;
+width: 160px;
+height: 30px;
+letter-spacing: 0.135px;
 }
