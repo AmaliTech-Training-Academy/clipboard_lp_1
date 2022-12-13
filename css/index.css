@@ -10,7 +10,7 @@
 
 }
 img .icon{
-    margin-top: 153px;
+    margin-top: 0;
 }
 .icon{
     text-align: center;
@@ -19,7 +19,7 @@ img .icon{
     font-family: 'Bai Jamjuree SemiBold';
     font-size: 46px;
     font-weight: 600;
-    line-height: 58px;
+    line-height: 57.5px;
     letter-spacing: -0.75px;
     text-align: center;
     margin-top: 56px;
@@ -39,6 +39,7 @@ img{
 }
 .buttons{
     text-align: center;
+    border: none;
 }
 .buttons .one{
     background:#26BBA4;
@@ -50,6 +51,7 @@ img{
     font-size: 18px;
     font-weight: 600;
     margin-right: 16px;
+    border: none;
 }
 .buttons .two{
     background: #6174FF;
@@ -61,6 +63,7 @@ img{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 154px;
+    border: none;
 
 }
 
@@ -80,14 +83,18 @@ margin-bottom: 19px;
     margin-bottom: 69px;
 }
 .gone{
-    text-align: r;
+    margin-bottom: 114px ;
 }
 .third{
     display: flex;
+
 }
 .fourth{
     margin-left: 82px;
     margin-top: 76px;
+}
+.fourth .one{
+    height: 155px;
 }
 .fourth h1{
     font-family: 'Bai Jamjuree';
@@ -607,9 +614,9 @@ margin-bottom: 130px;
     footer .container-flex{
         margin-bottom: 0;
         display:block;
-       
+        
         margin-top: 61px;
-        width: 1440px;
+        
         height: 15px;
         padding: 0;
         list-style-type: none;
