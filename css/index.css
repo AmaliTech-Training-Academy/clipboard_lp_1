@@ -291,13 +291,11 @@ letter-spacing: 0.135px;
  .container-flex{
     background: #9EABB2;
     margin-top: 61px;
-    /* width: 1440px; */
-    height: 400px;
+     width: 1440px; 
+    height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    
-   /* opacity: 0.1;
- */
+    opacity: 0.1;
 }
 
 footer img{
@@ -308,6 +306,9 @@ footer .one img{
     width: 100px;
     margin-left: 165px;
     margin-right: 135px;
+}
+footer .social img:hover{
+    background-color: #26BBA4;
 }
 footer ul{
 
@@ -338,6 +339,7 @@ li a{
 }
 footer .social{
     margin-top: 18px;
+    
 } 
 footer .social img{
     width: 24px;
@@ -625,4 +627,5 @@ margin-bottom: 130px;
 footer .social{
      padding-right: 20px;
      margin-bottom: 100px;
+}
 }
