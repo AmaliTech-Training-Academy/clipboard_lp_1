@@ -9,13 +9,24 @@
     height: 3808px;
 
 }
-img .icon{
-    margin-top: 0;
-}
 .icon{
     text-align: center;
-}
-.head h1{
+    margin-top: 0;
+   position: relative;
+    top: 0;
+    left: 0;
+  }
+.image1{
+    position: relative;
+    top: 0;
+    left: 0;
+}  
+  .image2 {
+    position: absolute;
+    top: 130px;
+    left: 658px;
+  }
+.glory h1{
     font-family: 'Bai Jamjuree SemiBold';
     font-size: 46px;
     font-weight: 600;
@@ -30,16 +41,29 @@ img .icon{
 img{
     align-items: center;
 }
-.head p{
+.glory p{
     font-family: 'Bai Jamjuree SemiBold';
     color: #9EABB2;
     font-size: 20px;
     text-align: center;
     margin-bottom: 32px;
 }
+.picone{
+position:absolute;
+top: 10px;
+left: 10px;
+z-index: 1;
+}
+.pictwo{
+position:absolute;
+top: 25px;
+left: 25px;
+z-index: 2;
+}
 .buttons{
     text-align: center;
     border: none;
+    margin-top: 48px;
 }
 .buttons .one{
     background:#26BBA4;
@@ -67,6 +91,13 @@ img{
 
 }
 
+.buttons .finish{
+    text-align: center;
+    border: none;
+    margin-top: 28px;
+    margin-left: 204px;
+    margin-right: 485px;
+}
 .middle h1{
 text-align: center;
 color: #4C545C;
@@ -77,10 +108,12 @@ margin-bottom: 19px;
     font-family: 'Bai Jamjuree';
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 40px;
     letter-spacing: 0.14px;
     color: #9EABB2;
     margin-bottom: 69px;
+    width: 1330px;
+    height: 90px;
 }
 .gone{
     margin-bottom: 114px ;
