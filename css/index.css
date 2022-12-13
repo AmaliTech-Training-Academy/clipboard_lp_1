@@ -607,9 +607,9 @@ margin-bottom: 130px;
     footer .container-flex{
         margin-bottom: 0;
         display:block;
-        
+       
         margin-top: 61px;
-        
+        width: 1440px;
         height: 15px;
         padding: 0;
         list-style-type: none;
