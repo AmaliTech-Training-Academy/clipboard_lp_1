@@ -18,8 +18,12 @@
   }
 .image1{
     position: relative;
-    top: 0;
-    left: 0;
+    top: -22px;
+    left: 96px;
+    margin-bottom: 56px;
+    height: 363px;
+    width: 1439px;
+    opacity: 0.25;
 }  
   .image2 {
     position: absolute;
@@ -465,6 +469,10 @@ h1{
 .third{
     display: block;
     margin-left: 260px;
+}
+.third .image{
+    height: 572px;
+    width: 121px;
 }
 .fourth{
  margin-left: 187px;
