@@ -563,6 +563,17 @@ footer .social img:not(:first-child){
 }
 .container-flex{
     display: block;
-    background-color: #26BBA4;
+    height: 700px;
+    width: 375px;
+    margin-left: 560px ;
 }
+.container-flex .links{
+    margin-left: 160px;
+
+}
+.container-flex .social{
+    margin-left: 130px;
+}
+}
+
 }
