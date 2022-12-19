@@ -343,8 +343,9 @@ letter-spacing: 0.135px;
     height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    opacity: 0.1;
+    
 }
+
 
 footer img{
     width: 60px;
@@ -358,6 +359,11 @@ footer .one img{
 footer .social img:hover{
     background-color: #26BBA4;
 }
+
+}
+.footer .links li a :hover{
+    color: rgba(38, 187, 164, 1);
+    
 footer ul{
 
     padding: 0;
