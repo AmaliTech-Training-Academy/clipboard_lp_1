@@ -339,9 +339,7 @@ letter-spacing: 0.135px;
  .container-flex{
     background: rgba(158, 171, 178, 0.1);
     margin-top: 61px;
-     width: 1440px; 
-    height: 200px;
-    display: grid;
+     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     
 }
