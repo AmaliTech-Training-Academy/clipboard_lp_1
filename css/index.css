@@ -625,17 +625,10 @@ margin-bottom: 130px;
     margin-left: 380px;
 }
 .tenth h1{
-    width: 311px;
-    height: 70px;
     color: #4C545C;
-    font-size: 28px;
-    font-family: 'Bai Jamjyree SemiBold';
-    font-style: normal;
-    font-weight: 600;
-    line-height: 35px;
-    text-align: center;
-    letter-spacing: -0.456px;
-    margin-bottom: 16px;
+        width: 311px;
+        height: 70px;
+        margin-bottom: 36px;
 }
 .tenth p{
     width: 311px;
@@ -673,7 +666,7 @@ margin-bottom: 130px;
         text-align: center;
         padding-right: 550px;
                }
-    footer .container-flex{
+ 0   footer .container-flex{
         margin-bottom: 0;
         display:block;
         
