@@ -126,6 +126,10 @@ margin-bottom: 19px;
     display: flex;
 
 }
+
+.third .image{
+    margin-left: -62px;
+}
 .fourth{
     margin-left: 82px;
     margin-top: 76px;
@@ -333,7 +337,7 @@ letter-spacing: 0.135px;
 }
 
  .container-flex{
-    background: #9EABB2;
+    background: rgba(158, 171, 178, 1);
     margin-top: 61px;
      width: 1440px; 
     height: 200px;
