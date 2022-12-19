@@ -335,15 +335,39 @@ width: 160px;
 height: 30px;
 letter-spacing: 0.135px;
 }
+    margin-bottom: 24px;
+    letter-spacing: 0.135px;
+
+}
+
+.eleventh .three {
+    display: flex;
+    margin-left: 355px;
+    margin-bottom: 19px;
+}
+
+.eleventh .three h1 {
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    color: #4C545C;
+    margin-bottom: 19px;
+    margin-left: 135px;
+    width: 160px;
+    height: 30px;
+    letter-spacing: 0.135px;
+}
 
  .container-flex{
     background: rgba(158, 171, 178, 0.1);
     margin-top: 61px;
-     display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    
-}
+    /* opacity: 0.1; */
 
+}
 
 footer img{
     width: 60px;
@@ -357,11 +381,6 @@ footer .one img{
 footer .social img:hover{
     background-color: #26BBA4;
 }
-
-}
-.footer .links li a :hover{
-    color: rgba(38, 187, 164, 1);
-    
 footer ul{
 
     padding: 0;
@@ -400,6 +419,7 @@ footer .social img{
 footer .social img:not(:first-child){
     padding-left: 24px;
 }
+
 
 
 
