@@ -428,184 +428,77 @@ footer .social img:not(:first-child){
 
 
 @media only screen and (max-width:375px){
- body{
-    display: block;
-    margin: 0;
-    padding: 0;
-} 
-    .container{
-     width: 375px;
-    /* height: 5205px; */
-    background: #FFFFFF;
-    display: block;
-    /* margin-bottom: 64px; */
-     margin-left: 0; 
-  align-items: left;
-    }
-    
-    .icon .image2{
-        width: 200px;
-        text-align: left;
-        padding-right: 1300px;
-    }
-    .glory{
-        margin-left: 635px;
-        width: 314px;
-        height: 17px;
-    }
-    .glory h1{
-        width: 311px;
-        height: 80px;
-        margin-bottom: 16px;
-        line-height: 40px;
-        margin-top: 64px;
-        font-family: 'Bai Jamjuree';
-        font-weight: 600;
-        font-style: normal;
-        font-size: 32px;
-        color: #4C545C;
-        margin-bottom: 16px;
-    }
-    .glory p{
-        width: 350px;
-        height: 78px;
-        font-family: 'Bai Jamjuree';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        letter-spacing: 0.2px;
-
-    }
-    .buttons{
-    margin-left: 680px; 
-    margin-top: 180px;
-    padding-top: 8px;     
-    }
-    .buttons .one{
-        margin-bottom: 24px;
-    }
-    .middle{
+body{
         display: flex;
+        width: 375px;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
+    } 
+    .container{
+        width: 375px;
+       background: #FFFFFF;
+       display: block;
+       /* margin-bottom: 64px; */
+        margin-left: 0; 
+     align-items: center';
     }
-    .middle .gone{
-        margin-left: 640px;
-        width: 312px;
-        height: 219px;
-        display: block;
-    }
-    .middle .gone h1{
-        font-family: 'Bai Jamjuree SemiBold';
-        font-weight: 600;
-        font-size: 28px;
-        line-height: 35px;
-        color:#4C545C;
-
+    .icon .image2{
+        width: 30px;
+    }    
+    .buttons .one{
+        margin-bottom: 23px;
     }
     .middle .gone p{
-    padding-right: 99px;
-    margin-right: 40px;
-    text-align: center;
-    width: 311px;
-    height: 130px;
-    line-height: 26px;
-    letter-spacing: 0.12px;
+        margin-right: 10400px;
+        align-items: left;
+        text-align: left;
+        padding-right: 500px;
     }
-
-    .third  {
+    .third{
         display: flex;
         flex-direction: column;
-        margin-left: 307px;
     }
-
-    .fourth{
-        margin-left: 114px;
+    .fifth{
+        margin-left: 150px;
+        width: 200px;
     }
-  .fourth .touch h1{
-    margin-left: 10px;
-    width: 511px;
-  }   
-  .fourth .touch .one p{
-    margin-left: 130px;
-  }
-.fifth h1{
-    width: 317px;
-    margin-left: 160px;
-    font-weight: 600;
-    font-size: 28px;
-    font-family: 'Bai Jamjuree';
-    height: 70px;
-    }
-    .seventh h1{
-        color: #4C545C;
-        margin-left: 213px;
-        line-height: 35px;
-        width: 317px;
+    .fifth h1{
         font-size: 28px;
-        letter-spacing: -0.4px;
-        margin-bottom: 11px;
-
+        width: 210px;
+        font-weight: 600;
+        line-height: 35px;
     }
-    .seventh p{
-        color: #9EABB2;
-        width: 311px;
-        height: 52px;
-        letter-spacing: 0.12px;
-        margin-left: 213px;
-
+.fifth p{
+    font-size: 16px;
+    width: 310px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.sixth img{
+    margin-right: 124px;
+    margin-left: 14px;
+}
+.seventh{
+    width: 200px;
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.seventh h1{
+        font-size: 28px;
+        width: 210px;
+        font-weight: 600;
+        line-height: 35px;
     }
     .eigth{
         display: block;
-        margin-left: 589px;
-        margin-top: 166px;
-
+        margin-left: 89px;
     }
     .ninth{
-
         display: flex;
         flex-direction: column;
-        margin-left: 520px;
-        margin-bottom: 0;
     }
-    .tenth{
-        margin-top: 400px;
-        margin-left: 610px;
-        height: 190px;
-
-
-    }
-    .tenth h1{
-        color: #4C545C;
-        width: 311px;
-        height: 70px;
-        margin-bottom: 36px;
 }
-.tenth p{
-    width: 311px;
-    height: 104px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.12px;
-    margin-bottom: 4px;
+
 } 
-.buttons .finish{
-    margin-right: 55px;
-    margin-left: -10px;
-    margin-top: -100px;
-}
-.container-flex{
-    display: block;
-    height: 700px;
-    width: 375px;
-    margin-left: 560px ;
-}
-.container-flex .links{
-    margin-left: 160px;
-
-}
-.container-flex .social{
-    margin-left: 130px;
-}
-}
-
-}
