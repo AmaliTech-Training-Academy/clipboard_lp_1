@@ -408,6 +408,10 @@ li a{
     text-decoration: none;
     color: #4C545C;
 }
+
+li a:hover{
+    color: rgba(38, 187, 164, 1);
+    
 footer .social{
     margin-top: 18px;
     
