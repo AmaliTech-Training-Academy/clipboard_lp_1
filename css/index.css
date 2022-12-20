@@ -450,7 +450,11 @@ body{
     .icon .image2{
         width: 30px;
     }    
-    .buttons .one{
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+        .buttons .one{
         margin-bottom: 23px;
     }
     .middle .gone p{
