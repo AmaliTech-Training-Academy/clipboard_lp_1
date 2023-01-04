@@ -552,3 +552,33 @@ color: #9EABB2;
     width: 300px;
     
 }
+.down{
+    display: block;
+}
+.fifth{
+    margin-right: 200px;
+    margin-left: 62px;
+}
+.fifth h1{
+    width: 311px;
+    height: 70px;
+    margin-bottom: 27px;
+}
+.fifth p{
+    width: 311px;
+height: 78px;
+
+font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+letter-spacing: 0.12px;
+
+color: #9EABB2;
+
+}
+}
