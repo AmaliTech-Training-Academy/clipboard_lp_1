@@ -581,4 +581,17 @@ letter-spacing: 0.12px;
 color: #9EABB2;
 
 }
+.sixth img{
+    margin-left: 0;
+    width: 455px;
+    height: auto;
+    margin-bottom: 196px;
+}
+.seventh{
+width: 311px;
+height: 134px;
+margin-left: 5px;
+text-align: center;
+margin-bottom: 57px;
+}
 }
