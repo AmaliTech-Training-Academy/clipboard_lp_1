@@ -497,5 +497,32 @@ color: #9EABB2;
 }
 .buttons .one{
     margin-bottom: 18px;
+
+}
+.middle{
+    margin-right: 900px;
+    width: 314px;
+}
+.gone h1{
+ font-family: Bai Jamjuree SemiBold;
+font-size: 28px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: -0.4565216898918152px;
+text-align: center;
+
+}
+.gone p{
+    
+font-family: 'Bai Jamjuree';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.12px;
+width: 311px;
+color: #9EABB2;
+
 }
 }
