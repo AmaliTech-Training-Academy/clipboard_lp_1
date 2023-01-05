@@ -409,7 +409,11 @@ footer .links li{
     letter-spacing: 0.14px;
     margin-top: 43px;
 }
- a :hover{
+ 
+footer .links :hover{
+    color: #26BBA4;
+}
+a :hover{
    background: rgba(38, 187, 164, 1);
     
 }
@@ -650,7 +654,9 @@ footer .container-flex{
 }
 footer .links{
     margin-left: 190px;
+
 }
 footer .social{
     margin-left: 200px;
+}
 }
