@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     width: 1440px;
-    overflow-x: hidden;
+    overflow: hidden;
 
 }
 .icon{
@@ -22,7 +22,7 @@
     position: relative;
     top: -22px;
     left: 96px;
-    margin-bottom: 56px;
+    /*margin-bottom: 56px;*/
     width: 1439px;
     opacity: 0.25;
 }  
@@ -73,6 +73,8 @@ z-index: 2;
     text-align: center;
     border: none;
     margin-top: 48px;
+    margin: auto;
+    margin-bottom: 100px;
     
 }
 .buttons .one{
@@ -84,7 +86,6 @@ z-index: 2;
     text-align: center;
     font-size: 18px;
     font-weight: 600;
-    margin-right: 16px;
     border: none;
 }
 .buttons .two{
@@ -95,8 +96,7 @@ z-index: 2;
     border-radius: 28px;
     text-align: center;
     font-size: 18px;
-1    font-weight: 600;
-    margin-bottom: 154px;
+   font-weight: 600;
     border: none;
 
 }
@@ -410,8 +410,8 @@ footer .links li{
     letter-spacing: 0.14px;
     margin-top: 43px;
 }
- a :hover{
-   background: rgba(38, 187, 164, 1);
+ footer .links li :hover{
+   color: rgba(38, 187, 164, 1);
     
 }
 li a{
@@ -440,103 +440,108 @@ footer .social img:not(:first-child){
     .container{
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    margin-left: -329px;
+    overflow-y: hidden;
+    /* background-color: #6174FF; */
+    width: 375px;
 }
 .image1{
     display: none;
+    width: 375px;
+}
+.image2{
+position: absolute;
+left: 100px;
+overflow: hidden;
+
 }
 .image3{   
     display: block;
     position: absolute;
-    margin-left: 500px;
     overflow: hidden;
 }
 .glory{
     padding-top:300px ;
     width: 312px;
-    margin-left: 557px;
 }
-.glory h1{
+/* .glory h1{
     width: 389px;
-}
+} */
 .glory p{
-    width: 381px;
     line-height: 26px;
 }
 .buttons{
     display: flex;
     flex-direction: column;
-    margin-left: 640px;
+    overflow: hidden;
 }
 .buttons .one{
     margin-bottom: 20px;
 }
+p.seed{
+    margin: 0;
+}
 .middle h1{
     width: 389px;
-    margin-left: 580px;
 }
 .middle p{
     width: 310px;
     line-height: 26px;
-    margin-left: 598px;
 }
+
 .third{
     display: flex;
     flex-direction: column;
 }
 .third .image{
     width: 312px;
-    margin-left: 371px;
+    margin: 0;
 }
 .third .image img{
     width: 312px;
-    margin-left: 250px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 .fourth{
     margin-left: 1px;
 }
 .fifth{
-    margin-top: -2px;
-    margin-left: 267px;
+   margin: 0;
 }
 .fifth h1{
     width: 310px;
-    margin-left: 300px;
+   margin: 0;
 }
+
 .fifth p{
     width: 275px;
-
-    margin-left: 320px;
     line-height: 26px;
 }
 .sixth img{
     width: 311px;
-    margin-left: 568px;
+    margin: 0;
+}
+.seventh{
+    margin: 0;
 }
 .seventh h1{
     width: 310px;
-    margin-left: 193px;
 }
 .seventh p{
     width: 275px;
-    margin-left: 200px;
 }
 .eigth{
     display: flex;
     flex-direction: column;
-    margin-left: 540px;
+   margin: 0;
 }
 .eigth .first{
     margin-bottom: 109px;
 }
-.eigth .first img{
-    margin-left: 78px;
-}
-.eigth .first h1{
-    margin-left: 20px;
-}
+/* .eigth .first img{
+   
+} */
+/* .eigth .first h1{
+    
+} */
 .eigth .first p{
     width: 311px;
     line-height: 26px;
@@ -544,36 +549,45 @@ footer .social img:not(:first-child){
 .ninth{
     display: flex;
     flex-direction: column;
-    margin-left: 569px;
-    margin-top: -113px;
+   
 }
 .ninth .image4{
     margin-bottom: 80px;
 }
 .tenth h1{
     width: 310px;
-    margin-left: 193px;
     line-height: 100%;
+}
+.tenth{
+    margin: 0;
 }
 .tenth p{
     width: 351px;
-    margin-left: 200px;
 }
 .buttons .finish{
-    margin-left: -158px;
+   margin: 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.footer{
+    width: 375px;
 }
 footer .container-flex {
-    margin-bottom: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     width: 375px;
-    margin-left: 366px;
 
 }
-.links{
-    margin-left: 172px;
+.container-flex .one img{
+    margin: 0;
 }
-.social{
-    margin-left: 150px;
-}
+/* .links{
+} */
+
+/* .social{
+   
+} */
 }
