@@ -73,6 +73,7 @@ z-index: 2;
     margin-top: 48px;
     
 }
+
 .buttons .one{
     background:#26BBA4;
     width: 227px;
@@ -350,7 +351,7 @@ margin-left: 135px;
 width: 160px;
 height: 30px;
 letter-spacing: 0.135px;
-}
+
     margin-bottom: 24px;
     letter-spacing: 0.135px;
 
@@ -420,7 +421,11 @@ footer .links li{
     letter-spacing: 0.14px;
     margin-top: 43px;
 }
- a :hover{
+ 
+footer .links :hover{
+    color: #26BBA4;
+}
+a :hover{
    background: rgba(38, 187, 164, 1);
     
 }
@@ -444,164 +449,298 @@ footer .social img:not(:first-child){
 
 
 
-@media only screen and (min-width:320px) and (max-width:375px){
-.container{
-    margin-left: -500px;
-    padding: 0;
+@media only screen and (max-width:375px){
+/* body{
+    display: block;
+} */
+    .container{
+     width: 375px;
+    /* height: 5205px; */
+    background: #FFFFFF;
+    display: block;
+    /* margin-bottom: 64px; */
+    /* margin-left: 562px; */
+}  
+img .icon{
+width: 125px;
+height: 125px;
+margin-top: 123px;
+margin-bottom: 64px;
+margin-left: 129px;
+margin-right: 121px;
 }
-.image2{
-    margin-left: 32px;
-    margin-top: -20px;
+.head{
+    margin-bottom: 48px;
+    width: 32px;
 }
-    .glory{
-width: 311px;
-margin-top: -570px;
-margin-left: 500px;
+h1{
+    font-size: 40px;
 }
-.glory h1{
-    width: 290px;
+.head h1{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
     line-height: 40px;
-margin-top: 556px;
-font-size: 32px;
-margin-left: 72px;
+    text-align: center;
+    color: #4C545C;
+    margin-bottom: 16px;
+
 }
-.glory p{
-    margin-left: 120px;
-    width: 291.9px;
+.head p{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 32px;
+    margin-left: 32px;
+    font-size: 26px;
     line-height: 26px;
-    font-size: 16px;
-    margin-left: 104px;
+    text-align: center;
+    color: #9EABB2;
+
 }
 .buttons{
-display: flex;
-flex-direction: column;
-margin-left: 598px;
+    
+    display:block;
 }
 .buttons .one{
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    display: block;
+    margin: auto;
+    margin-bottom: 24px;
+
 }
-.gone{
-    
+.buttons .two{
+    margin-bottom: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 149px;
+}
+.middle {
+    margin-left: 32px;
+    margin-right: 327px;
+    display: block;
+
+}
+.middle .gone h1{
+    width: 311px;
+    height: 80px;
+}
+
+.middle .gone p{
+text-align: left;
 width: 311px;
-margin-top: -570px;
-margin-left: 500px;
+height: 130px;
+line-height: 26px;
+letter-spacing: 0.12px;
+font-size: 16px;
+color:#9EABB2;
+}
+.third{
+    display: block;
+    margin-left: 260x;
+}
+.third .image{
+    height: 572px;
+    width: 121px;
+    margin-left: 25px;
+    margin-right: 38px;
+    margin-top: 65px;
+    padding-top: 65px;
 
 }
-.gone h1{
-   width: 290px;
-    line-height: 40px;
-margin-top: 556px;
-font-size: 32px;
-margin-left: 72px;
+.fourth{
+ margin-left: 187px;
+ margin-right: 37px; 
+ width: 311px;  
+ margin-bottom: 197px;
+}
+.fourth h1{
+    font: 'Bai Jamjuree SemiBold';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.39px;
+    color: #4C545C;
+    margin-bottom: 10px;
+}
+.fourth p{
+    font: 'Bai Jamjuree SemiBold';
+    width: 311px;
+    height: 78px;
+    margin-left: 27px;
+    margin-right: 37px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #9EABB2;
 
 }
-    .gone p{
- 
-        margin-left: 120px;
-        width: 311px;
-        line-height: 26px;
-        font-size: 16px;
-        margin-left: 70px;
-    }
-    .third{
-        display: flex;
-        flex-direction: column;
-    }       
-    .third .image img{
-        width: 312px;
-        margin-left: 643px;
-        padding-bottom: 238px;
-    }
-    .fourth h1{
-        margin-left: -10px;
-        margin-top: -90px;
-    }
- .fourth .one p{
-    margin-left: 513px;
-    line-height: 26px;
-    font-size: 16px;
-    letter-spacing: 0.12px;
+.down{
+ margin-left: 33px;
+ margin-right: 31px;   
+}
+.fifth{
+    margin-left: 133px;
+    text-align: center;
+    margin-left: 85px;
+    margin: auto;
+}
+.fifth h1{
+    font: 'Bai Jamjuree SemiBold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #4C545C;
+    letter-spacing: -0.456px;
     width: 311px;
- }   
+    height: 70px;
+    margin-left: 83px;
+    margin-bottom: 16px;
 
- .fourth .two p{
-    margin-left: 513px;
-    line-height: 26px;
+}
+.fifth p{
     font-size: 16px;
-    letter-spacing: 0.12px;
-    width: 311px;
- 
-    }
- .fourth .three p{
-    margin-left: 513px;
+    width: 310px;
     line-height: 26px;
-    font-size: 16px;
-    letter-spacing: 0.12px;
+    font-weight: 400;
+}
+.sixth img{
+margin-left: 400px;
+margin-right: 31px;
+width: 312px;
+height: 183px;
+margin-bottom: 130px;
+}
+.seventh{
     width: 311px;
- }
- .fifth{
-    margin-top: -158px;
- }
- .fifth h1{
-    margin-left: 250px;
-    width: 311px;
- }   
- .fifth p{
-    width: 350px;
-    margin-left: 250px;
- }
- .sixth{
-    width: 91px;
- }
- .seventh{
-    margin-bottom: 103px;
-    margin-left: 359px;
- }
- .seventh h1{
-    width: 311px;
-    margin-left: 250px;
+    height: 182px;
+    margin-left: 372px;
+    margin-right: 32px;
+    margin-bottom: 170px;
+}
+.seventh h1{
+    margin-bottom: 11px;
+    font-family: 'Bai Jamjyree SemiBold';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.46px;
+    text-align: center;
+    color: #4C545C;
+    margin-bottom: 11px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+.seventh p{
     
-
- }
- .seventh p{
-    width: 350px;
-    margin-left: 250px;
- }
-.eigth{
-    display: flex;
-    flex-direction: column;
-    margin-left: 631px;
-}
-.eigth .first p{
-    width: 370px;
+    font: 'Bai Jamjyuree  SemiBold';
+    font-weight: 400px;
+    font-size: 16px;
     line-height: 26px;
-    font-size: 16px
+    letter-spacing: 0.12px;
+    text-align:center;
+    width: 311px;
+    height: 78px;
+/*    display: block;*/
+    margin-left: 33px;
+    margin-right: 31px;
+    margin-bottom: 63px;
+}
+.eigth{
+  display: block;
+    margin-left: 447px;    
 }
 .ninth{
-    display: flex;
-    flex-direction: column;
-    margin-left: 554px;
-    margin-bottom: 430px;
-    margin-top: -96px;
+    display: block;
+    width: 139px;
+    height: 439px;
+    left: 118px;
+    margin-left: 448px;
+}
+.ninth .image1{
+ margin-bottom: 56px;
+}
+.tenth{
+    margin-right: 132px;
+    padding-right: 260px;
+    margin-left: 58px;
+    margin-left: 380px;
 }
 .tenth h1{
-width: 311px;
-margin-left: 250px;
-line-height: 35px;
+    width: 311px;
+    height: 70px;
+    color: #4C545C;
+    font-size: 28px;
+    font-family: 'Bai Jamjyree SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456px;
+    margin-bottom: 16px;
 }
 .tenth p{
-    width: 350px;
-    margin-left: 250px;
+    width: 311px;
+    height: 104px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 46px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    display: inline-block;
+    font-size: 18px;
+
 }
 .buttons .finish{
-    margin-left: -95px;
+    margin-right: 142px;
 }
-.container-flex{
-    margin-left: 470px;
-    display: flex;
-    flex-direction: column;
+.meet{
+    display: block;
 }
-.container-flex .links{
-    margin-left: 152px;
+    footer img{
+        width: 60px;
+        margin-top: 43px;
+        margin-left: 100px;
+    }
+    footer .one img{
+        width: 100px;
+        height: 155px;
+    
+    }
+    footer{
+        background: #9EABB2;
+        height: 945px;
+        text-align: center;
+        padding-right: 550px;
+               }
+    footer .container-flex{
+        margin-bottom: 0;
+        display:block;
+        
+        margin-top: 61px;
+        
+        height: 15px;
+        padding: 0;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+     .container .links{
+        margin-left: 155px;
+        padding-right: 120px;
+        font-size: 18px;
+    }
+    footer .social a{
+      padding-left: 20px;
+
+}
+footer .social{
+     padding-right: 20px;
+     margin-bottom: 100px;
 }
 }
