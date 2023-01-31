@@ -203,7 +203,7 @@ margin-bottom: 146px;
 .sixth img{
         margin-left: 314px;
         width: 812px;
-        height: 475px;
+        
         margin-bottom: 161px;
 }
 .seventh{
@@ -263,7 +263,7 @@ margin-bottom: 146px;
 }
 .ninth{
     width: 1110px;
-    margin-left: 165px;
+    margin-left: 12px;
     display: flex;
     margin-bottom: 122px;
     
@@ -435,7 +435,9 @@ footer .social img:not(:first-child){
 
 
 @media only screen and (min-width:320px) and (max-width:480px){
-.container{
+
+
+    .container{
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -497,6 +499,7 @@ footer .social img:not(:first-child){
 }
 .fifth{
     margin-top: -2px;
+    margin-left: 267px;
 }
 .fifth h1{
     width: 310px;
@@ -504,8 +507,73 @@ footer .social img:not(:first-child){
 }
 .fifth p{
     width: 275px;
-    
-    margin-left: 298px;
+
+    margin-left: 320px;
     line-height: 26px;
+}
+.sixth img{
+    width: 311px;
+    margin-left: 568px;
+}
+.seventh h1{
+    width: 310px;
+    margin-left: 193px;
+}
+.seventh p{
+    width: 275px;
+    margin-left: 200px;
+}
+.eigth{
+    display: flex;
+    flex-direction: column;
+    margin-left: 540px;
+}
+.eigth .first{
+    margin-bottom: 109px;
+}
+.eigth .first img{
+    margin-left: 78px;
+}
+.eigth .first h1{
+    margin-left: 20px;
+}
+.eigth .first p{
+    width: 311px;
+    line-height: 26px;
+}
+.ninth{
+    display: flex;
+    flex-direction: column;
+    margin-left: 569px;
+    margin-top: -113px;
+}
+.ninth .image4{
+    margin-bottom: 80px;
+}
+.tenth h1{
+    width: 310px;
+    margin-left: 193px;
+    line-height: 100%;
+}
+.tenth p{
+    width: 351px;
+    margin-left: 200px;
+}
+.buttons .finish{
+    margin-left: -158px;
+}
+footer .container-flex {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    margin-left: 366px;
+
+}
+.links{
+    margin-left: 172px;
+}
+.social{
+    margin-left: 150px;
 }
 }
