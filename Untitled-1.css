@@ -5,10 +5,8 @@
     margin: 0;
 }
 .container{
-    display: flex;
-    flex-direction: column;
     width: 1440px;
-    overflow-x: hidden;
+    height: 3808px;
 
 }
 .icon{
@@ -71,7 +69,6 @@ z-index: 2;
     text-align: center;
     border: none;
     margin-top: 48px;
-    
 }
 .buttons .one{
     background:#26BBA4;
@@ -93,7 +90,7 @@ z-index: 2;
     border-radius: 28px;
     text-align: center;
     font-size: 18px;
-1    font-weight: 600;
+    font-weight: 600;
     margin-bottom: 154px;
     border: none;
 
@@ -121,36 +118,21 @@ margin-bottom: 19px;
     color: #9EABB2;
     margin-bottom: 69px;
     width: 1330px;
-    padding-bottom: 90px;
+    height: 90px;
 }
 .gone{
     margin-bottom: 114px ;
 }
-.gone p{
-    width: 730px;
-    margin-left: 330px;
-    line-height: 30px;
-}
 .third{
     display: flex;
 
-}
-
-.third .image{
-    margin-left: -62px;
 }
 .fourth{
     margin-left: 82px;
     margin-top: 76px;
 }
 .fourth .one{
-    margin-top: -50px;
-}
-.fourth .two{
-    margin-top: -198px;
-}
-.fourth .three{
-    margin-top: -198px;
+    height: 155px;
 }
 .fourth h1{
     font-family: 'Bai Jamjuree';
@@ -351,38 +333,15 @@ width: 160px;
 height: 30px;
 letter-spacing: 0.135px;
 }
-    margin-bottom: 24px;
-    letter-spacing: 0.135px;
-
-
-
-.eleventh .three {
-    display: flex;
-    margin-left: 355px;
-    margin-bottom: 19px;
-}
-
-.eleventh .three h1 {
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 30px;
-    color: #4C545C;
-    margin-bottom: 19px;
-    margin-left: 135px;
-    width: 160px;
-    height: 30px;
-    letter-spacing: 0.135px;
-}
 
  .container-flex{
-    background: rgba(158, 171, 178, 0.1);
+    background: #9EABB2;
     margin-top: 61px;
+     width: 1440px; 
+    height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    /* opacity: 0.1; */
-
+    opacity: 0.1;
 }
 
 footer img{
@@ -420,10 +379,6 @@ footer .links li{
     letter-spacing: 0.14px;
     margin-top: 43px;
 }
- a :hover{
-   background: rgba(38, 187, 164, 1);
-    
-}
 li a{
     text-decoration: none;
     color: #4C545C;
@@ -436,172 +391,170 @@ footer .social img{
     width: 24px;
 
 }
-
 footer .social img:not(:first-child){
     padding-left: 24px;
 }
 
 
 
-
-@media only screen and (min-width:320px) and (max-width:375px){
-.container{
-    margin-left: -500px;
+@media only screen and (max-width:375px){
+ body{
+    display: block;
+    margin: 0;
     padding: 0;
-}
-.image2{
-    margin-left: 32px;
-    margin-top: -20px;
-}
-    .glory{
-width: 311px;
-margin-top: -570px;
-margin-left: 500px;
-}
-.glory h1{
-    width: 290px;
-    line-height: 40px;
-margin-top: 556px;
-font-size: 32px;
-margin-left: 72px;
-}
-.glory p{
-    margin-left: 120px;
-    width: 291.9px;
-    line-height: 26px;
-    font-size: 16px;
-    margin-left: 104px;
-}
-.buttons{
-display: flex;
-flex-direction: column;
-margin-left: 598px;
-}
-.buttons .one{
-    margin-bottom: 20px;
-}
-.gone{
-    
-width: 311px;
-margin-top: -570px;
-margin-left: 500px;
-
-}
-.gone h1{
-   width: 290px;
-    line-height: 40px;
-margin-top: 556px;
-font-size: 32px;
-margin-left: 72px;
-
-}
-    .gone p{
- 
-        margin-left: 120px;
-        width: 311px;
-        line-height: 26px;
-        font-size: 16px;
-        margin-left: 70px;
+} 
+    .container{
+     width: 375px;
+    /* height: 5205px; */
+    background: #FFFFFF;
+    display: block;
+    /* margin-bottom: 64px; */
+     margin-left: 0; 
+  align-items: left;
     }
-    .third{
+    
+    .icon .image2{
+        width: 200px;
+        text-align: left;
+        padding-right: 1300px;
+    }
+    .glory{
+        margin-left: 635px;
+        width: 314px;
+        height: 17px;
+    }
+    .glory h1{
+        width: 311px;
+        height: 80px;
+        margin-bottom: 16px;
+        line-height: 40px;
+        margin-top: 64px;
+        font-family: 'Bai Jamjuree';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 32px;
+        color: #4C545C;
+        margin-bottom: 16px;
+    }
+    .glory p{
+        width: 350px;
+        height: 78px;
+        font-family: 'Bai Jamjuree';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+
+    }
+    .buttons{
+    margin-left: 680px; 
+    margin-top: 180px;
+    padding-top: 8px;     
+    }
+    .buttons .one{
+        margin-bottom: 24px;
+    }
+    .middle{
         display: flex;
         flex-direction: column;
-    }       
-    .third .image img{
+    }
+    .middle .gone{
+        margin-left: 640px;
         width: 312px;
-        margin-left: 643px;
-        padding-bottom: 238px;
+        height: 219px;
+        display: block;
     }
-    .fourth h1{
-        margin-left: -10px;
-        margin-top: -90px;
-    }
- .fourth .one p{
-    margin-left: 513px;
-    line-height: 26px;
-    font-size: 16px;
-    letter-spacing: 0.12px;
-    width: 311px;
- }   
+    .middle .gone h1{
+        font-family: 'Bai Jamjuree SemiBold';
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+        color:#4C545C;
 
- .fourth .two p{
-    margin-left: 513px;
-    line-height: 26px;
-    font-size: 16px;
-    letter-spacing: 0.12px;
-    width: 311px;
- 
     }
- .fourth .three p{
-    margin-left: 513px;
+    .middle .gone p{
+    padding-right: 99px;
+    margin-right: 40px;
+    text-align: center;
+    width: 311px;
+    height: 130px;
     line-height: 26px;
-    font-size: 16px;
     letter-spacing: 0.12px;
-    width: 311px;
- }
- .fifth{
-    margin-top: -158px;
- }
- .fifth h1{
-    margin-left: 250px;
-    width: 311px;
- }   
- .fifth p{
-    width: 350px;
-    margin-left: 250px;
- }
- .sixth{
-    width: 91px;
- }
- .seventh{
-    margin-bottom: 103px;
-    margin-left: 359px;
- }
- .seventh h1{
-    width: 311px;
-    margin-left: 250px;
-    
+    }
 
- }
- .seventh p{
-    width: 350px;
-    margin-left: 250px;
- }
-.eigth{
-    display: flex;
-    flex-direction: column;
-    margin-left: 631px;
-}
-.eigth .first p{
-    width: 370px;
-    line-height: 26px;
-    font-size: 16px
-}
-.ninth{
-    display: flex;
-    flex-direction: column;
-    margin-left: 554px;
-    margin-bottom: 430px;
-    margin-top: -96px;
-}
-.tenth h1{
-width: 311px;
-margin-left: 250px;
-line-height: 35px;
+    .third  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 307px;
+    }
+
+    .fourth{
+        margin-left: 114px;
+    }
+  .fourth .touch h1{
+    margin-left: 10px;
+    width: 511px;
+  }   
+  .fourth .touch .one p{
+    margin-left: 130px;
+  }
+.fifth h1{
+    width: 317px;
+    margin-left: 160px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Bai Jamjuree';
+    height: 70px;
+    }
+    .seventh h1{
+        color: #4C545C;
+        margin-left: 213px;
+        line-height: 35px;
+        width: 317px;
+        font-size: 28px;
+        letter-spacing: -0.4px;
+        margin-bottom: 11px;
+
+    }
+    .seventh p{
+        color: #9EABB2;
+        width: 311px;
+        height: 52px;
+        letter-spacing: 0.12px;
+        margin-left: 213px;
+
+    }
+    .eigth{
+        display: block;
+        margin-left: 589px;
+        margin-top: 166px;
+
+    }
+    .ninth{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 520px;
+        margin-bottom: 0;
+    }
+    .tenth{
+        margin-top: 400px;
+        margin-left: 610px;
+        height: 190px;
+
+
+    }
+    .tenth h1{
+        color: #4C545C;
+        width: 311px;
+        height: 70px;
+        margin-bottom: 36px;
 }
 .tenth p{
-    width: 350px;
-    margin-left: 250px;
-}
-.buttons .finish{
-    margin-left: -95px;
-}
-.container-flex{
-    margin-left: 470px;
-    display: flex;
-    flex-direction: column;
-}
-.container-flex .links{
-    margin-left: 152px;
-}
+    width: 311px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+} 
 }
