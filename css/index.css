@@ -23,7 +23,6 @@
     top: -22px;
     left: 96px;
     margin-bottom: 56px;
-    height: 363px;
     width: 1439px;
     opacity: 0.25;
 }  
@@ -31,6 +30,9 @@
     position: absolute;
     top: 130px;
     left: 658px;
+  }
+  .image3{
+    display: none;
   }
 .glory h1{
     font-family: 'Bai Jamjuree SemiBold';
@@ -73,7 +75,6 @@ z-index: 2;
     margin-top: 48px;
     
 }
-
 .buttons .one{
     background:#26BBA4;
     width: 227px;
@@ -172,7 +173,6 @@ letter-spacing: 0.12px;
 margin-bottom: 56px;
 
 font-family: 'Bai Jamjuree';
-height: 98px;
 width: 350px;
 margin-bottom: 146px;
 }
@@ -208,7 +208,6 @@ margin-bottom: 146px;
 }
 .seventh{
     width: 730px;
-    height: 94px;
     margin-left: 354px;
     text-align: center;
     margin-bottom: 57px;
@@ -239,7 +238,6 @@ margin-bottom: 146px;
 }
 .eigth .first{
     width: 350px;
-    height: 216px;
     margin-left: 30px;
     margin-right: 20px;
 }
@@ -265,7 +263,6 @@ margin-bottom: 146px;
 }
 .ninth{
     width: 1110px;
-    height: 72px;
     margin-left: 165px;
     display: flex;
     margin-bottom: 122px;
@@ -277,7 +274,6 @@ margin-bottom: 146px;
 }
 .tenth{
     width: 730px;
-    height: 228px;
     margin-left: 335px;
     margin-right: 335px;
 }
@@ -349,14 +345,8 @@ color: #4C545C;
 margin-bottom: 19px;
 margin-left: 135px;
 width: 160px;
-height: 30px;
 letter-spacing: 0.135px;
-
-    margin-bottom: 24px;
-    letter-spacing: 0.135px;
-
-
-
+}
 .eleventh .three {
     display: flex;
     margin-left: 355px;
@@ -373,7 +363,6 @@ letter-spacing: 0.135px;
     margin-bottom: 19px;
     margin-left: 135px;
     width: 160px;
-    height: 30px;
     letter-spacing: 0.135px;
 }
 
@@ -421,11 +410,7 @@ footer .links li{
     letter-spacing: 0.14px;
     margin-top: 43px;
 }
- 
-footer .links :hover{
-    color: #26BBA4;
-}
-a :hover{
+ a :hover{
    background: rgba(38, 187, 164, 1);
     
 }
@@ -449,298 +434,65 @@ footer .social img:not(:first-child){
 
 
 
-@media only screen and (max-width:375px){
-/* body{
+@media only screen and (min-width:320px) and (max-width:480px){
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: -329px;
+}
+.image1{
+    display: none;
+}
+.image3{   
     display: block;
-} */
-    .container{
-     width: 375px;
-    /* height: 5205px; */
-    background: #FFFFFF;
-    display: block;
-    /* margin-bottom: 64px; */
-    /* margin-left: 562px; */
-}  
-img .icon{
-width: 125px;
-height: 125px;
-margin-top: 123px;
-margin-bottom: 64px;
-margin-left: 129px;
-margin-right: 121px;
+    position: absolute;
+    margin-left: 500px;
+    overflow: hidden;
 }
-.head{
-    margin-bottom: 48px;
-    width: 32px;
+.glory{
+    padding-top:300px ;
+    width: 312px;
+    margin-left: 557px;
 }
-h1{
-    font-size: 40px;
+.glory h1{
+    width: 389px;
 }
-.head h1{
-    font-family: 'Bai Jamjuree SemiBold';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #4C545C;
-    margin-bottom: 16px;
-
-}
-.head p{
-    font-family: 'Bai Jamjuree SemiBold';
-    font-style: normal;
-    font-weight: 400;
-    margin-right: 32px;
-    margin-left: 32px;
-    font-size: 26px;
+.glory p{
+    width: 381px;
     line-height: 26px;
-    text-align: center;
-    color: #9EABB2;
-
 }
 .buttons{
-    
-    display:block;
+    display: flex;
+    flex-direction: column;
+    margin-left: 640px;
 }
 .buttons .one{
-    margin-bottom: 24px;
-    display: block;
-    margin: auto;
-    margin-bottom: 24px;
-
+    margin-bottom: 20px;
 }
-.buttons .two{
-    margin-bottom: 150px;
-    display: block;
-    margin: auto;
-    margin-bottom: 149px;
+.middle h1{
+    width: 389px;
+    margin-left: 580px;
 }
-.middle {
-    margin-left: 32px;
-    margin-right: 327px;
-    display: block;
-
-}
-.middle .gone h1{
-    width: 311px;
-    height: 80px;
-}
-
-.middle .gone p{
-text-align: left;
-width: 311px;
-height: 130px;
-line-height: 26px;
-letter-spacing: 0.12px;
-font-size: 16px;
-color:#9EABB2;
+.middle p{
+    width: 330px;
+    line-height: 26px;
+    margin-left: 598px;
 }
 .third{
-    display: block;
-    margin-left: 260x;
+    display: flex;
+    flex-direction: column;
 }
 .third .image{
-    height: 572px;
-    width: 121px;
-    margin-left: 25px;
-    margin-right: 38px;
-    margin-top: 65px;
-    padding-top: 65px;
-
+    width: 312px;
+    margin-left: 371px;
+}
+.third .image img{
+    width: 312px;
+    margin-left: 250px;
+    margin-top: -100px;
 }
 .fourth{
- margin-left: 187px;
- margin-right: 37px; 
- width: 311px;  
- margin-bottom: 197px;
-}
-.fourth h1{
-    font: 'Bai Jamjuree SemiBold';
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: -0.39px;
-    color: #4C545C;
-    margin-bottom: 10px;
-}
-.fourth p{
-    font: 'Bai Jamjuree SemiBold';
-    width: 311px;
-    height: 78px;
-    margin-left: 27px;
-    margin-right: 37px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.12px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #9EABB2;
-
-}
-.down{
- margin-left: 33px;
- margin-right: 31px;   
-}
-.fifth{
-    margin-left: 133px;
-    text-align: center;
-    margin-left: 85px;
-    margin: auto;
-}
-.fifth h1{
-    font: 'Bai Jamjuree SemiBold';
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 35px;
-    text-align: center;
-    color: #4C545C;
-    letter-spacing: -0.456px;
-    width: 311px;
-    height: 70px;
-    margin-left: 83px;
-    margin-bottom: 16px;
-
-}
-.fifth p{
-    font-size: 16px;
-    width: 310px;
-    line-height: 26px;
-    font-weight: 400;
-}
-.sixth img{
-margin-left: 400px;
-margin-right: 31px;
-width: 312px;
-height: 183px;
-margin-bottom: 130px;
-}
-.seventh{
-    width: 311px;
-    height: 182px;
-    margin-left: 372px;
-    margin-right: 32px;
-    margin-bottom: 170px;
-}
-.seventh h1{
-    margin-bottom: 11px;
-    font-family: 'Bai Jamjyree SemiBold';
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 35px;
-    letter-spacing: -0.46px;
-    text-align: center;
-    color: #4C545C;
-    margin-bottom: 11px;
-    margin-left: 32px;
-    margin-right: 32px;
-
-}
-.seventh p{
-    
-    font: 'Bai Jamjyuree  SemiBold';
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.12px;
-    text-align:center;
-    width: 311px;
-    height: 78px;
-/*    display: block;*/
-    margin-left: 33px;
-    margin-right: 31px;
-    margin-bottom: 63px;
-}
-.eigth{
-  display: block;
-    margin-left: 447px;    
-}
-.ninth{
-    display: block;
-    width: 139px;
-    height: 439px;
-    left: 118px;
-    margin-left: 448px;
-}
-.ninth .image1{
- margin-bottom: 56px;
-}
-.tenth{
-    margin-right: 132px;
-    padding-right: 260px;
-    margin-left: 58px;
-    margin-left: 380px;
-}
-.tenth h1{
-    width: 311px;
-    height: 70px;
-    color: #4C545C;
-    font-size: 28px;
-    font-family: 'Bai Jamjyree SemiBold';
-    font-style: normal;
-    font-weight: 600;
-    line-height: 35px;
-    text-align: center;
-    letter-spacing: -0.456px;
-    margin-bottom: 16px;
-}
-.tenth p{
-    width: 311px;
-    height: 104px;
-    margin-left: 32px;
-    margin-right: 32px;
-    margin-bottom: 46px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.12px;
-    color: #9EABB2;
-    display: inline-block;
-    font-size: 18px;
-
-}
-.buttons .finish{
-    margin-right: 142px;
-}
-.meet{
-    display: block;
-}
-    footer img{
-        width: 60px;
-        margin-top: 43px;
-        margin-left: 100px;
-    }
-    footer .one img{
-        width: 100px;
-        height: 155px;
-    
-    }
-    footer{
-        background: #9EABB2;
-        height: 945px;
-        text-align: center;
-        padding-right: 550px;
-               }
-    footer .container-flex{
-        margin-bottom: 0;
-        display:block;
-        
-        margin-top: 61px;
-        
-        height: 15px;
-        padding: 0;
-        list-style-type: none;
-        flex-wrap: wrap;
-    }
-     .container .links{
-        margin-left: 155px;
-        padding-right: 120px;
-        font-size: 18px;
-    }
-    footer .social a{
-      padding-left: 20px;
-
-}
-footer .social{
-     padding-right: 20px;
-     margin-bottom: 100px;
+    margin-left: 1px;
 }
 }
