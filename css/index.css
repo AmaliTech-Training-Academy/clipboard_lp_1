@@ -475,7 +475,7 @@ footer .social img:not(:first-child){
     margin-left: 580px;
 }
 .middle p{
-    width: 330px;
+    width: 310px;
     line-height: 26px;
     margin-left: 598px;
 }
@@ -494,5 +494,18 @@ footer .social img:not(:first-child){
 }
 .fourth{
     margin-left: 1px;
+}
+.fifth{
+    margin-top: -2px;
+}
+.fifth h1{
+    width: 310px;
+    margin-left: 300px;
+}
+.fifth p{
+    width: 275px;
+    
+    margin-left: 298px;
+    line-height: 26px;
 }
 }
