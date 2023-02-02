@@ -591,3 +591,72 @@ footer .container-flex {
    
 } */
 }
+
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        /* background-color: #6174FF; */
+        width: 875px;
+    }
+    .image1{
+        display: none;
+        width: 975px;
+
+    }
+    .image2{
+    position: absolute;
+    left: 361px;
+    overflow: hidden;
+    
+    }
+    .icon{
+        padding-bottom: 400px;
+        text-align: center;
+        padding-left: -1100px;
+    }
+    .image3{   
+        display: block;
+        position: absolute;
+        overflow: hidden;
+        width: 900px;
+        height: 500px;
+    }
+    .glory{
+        padding-top: 40px;
+    }
+    .glory h1{
+        width: 383px;
+        padding-left: 300px;
+    }
+    .glory p{
+        width: 370px;
+        padding-left: 300px;
+        line-height: 26px;
+        padding-bottom: 50px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons .one{
+        margin-bottom: 30px;
+    
+    }
+    .middle h1{
+        width: 383px;
+        padding-left: 300px;
+    }
+    .middle p{
+        width: 350px;
+        padding-left: -17px;
+        padding-top: 10px;
+    }
+    .third{
+        display: flex;
+        flex-direction: column;
+    }
+}
