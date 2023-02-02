@@ -438,7 +438,6 @@ footer .social img:not(:first-child){
 
 
     .container{
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
@@ -633,8 +632,6 @@ top: 92px;
 }
 
 .buttons{
-=======
->>>>>>> b55b10d3dddb55456ad965a508d15bdccf1dec0a
     display: flex;
     flex-direction: column;
     overflow-y: hidden;
@@ -672,19 +669,6 @@ overflow: hidden;
     overflow: hidden;
 }
 .buttons .one{
-<<<<<<< HEAD
-    margin-bottom: 30px;
-    
-}
-.middle h1{
-    width: 400px;
-    padding-left: 200px;
-}
-.gone p{
-    width: 342px;
-    line-height: 26px;
-    margin-left: 250px;
-=======
     margin-bottom: 20px;
 }
 p.seed{
@@ -696,34 +680,12 @@ p.seed{
 .middle p{
     width: 310px;
     line-height: 26px;
->>>>>>> b55b10d3dddb55456ad965a508d15bdccf1dec0a
-}
-
 .third{
     display: flex;
     flex-direction: column;
 }
 .third .image{
     width: 312px;
-<<<<<<< HEAD
-    margin-top: -90px;
-    padding-left: 300px;
-}
-.third .image img{
-    width: 482px;
-    /* margin-top: -100px; */
-}
-.fourth{
-    margin-left: 1px;
-}
-.fourth h1{
-    padding-top: 40px;
-    padding-left: 240px;
-}
-.fourth p{
-    padding-left: 320px;
-    width: 305px;
-=======
     margin: 0;
 }
 .third .image img{
@@ -732,7 +694,6 @@ p.seed{
 }
 .fourth{
     margin-left: 1px;
->>>>>>> b55b10d3dddb55456ad965a508d15bdccf1dec0a
 }
 .fifth{
    margin: 0;
@@ -740,10 +701,6 @@ p.seed{
 .fifth h1{
     width: 310px;
    margin: 0;
-<<<<<<< HEAD
-}
-.
-=======
 }
 
 .fifth p{
@@ -825,5 +782,4 @@ footer .container-flex {
 /* .social{
    
 } */
->>>>>>> b55b10d3dddb55456ad965a508d15bdccf1dec0a
 }
