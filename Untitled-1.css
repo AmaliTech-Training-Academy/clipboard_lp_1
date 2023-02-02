@@ -1,0 +1,560 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1440px;
+    height: 3808px;
+
+}
+.icon{
+    text-align: center;
+    margin-top: 0;
+   position: relative;
+    top: 0;
+    left: 0;
+  }
+.image1{
+    position: relative;
+    top: -22px;
+    left: 96px;
+    margin-bottom: 56px;
+    height: 363px;
+    width: 1439px;
+    opacity: 0.25;
+}  
+  .image2 {
+    position: absolute;
+    top: 130px;
+    left: 658px;
+  }
+.glory h1{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    letter-spacing: -0.75px;
+    text-align: center;
+    margin-top: 56px;
+    color: #4C545C;
+    margin-bottom: 32px;
+
+}
+img{
+    align-items: center;
+}
+.glory p{
+    font-family: 'Bai Jamjuree SemiBold';
+    color: #9EABB2;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.picone{
+position:absolute;
+top: 10px;
+left: 10px;
+z-index: 1;
+}
+.pictwo{
+position:absolute;
+top: 25px;
+left: 25px;
+z-index: 2;
+}
+.buttons{
+    text-align: center;
+    border: none;
+    margin-top: 48px;
+}
+.buttons .one{
+    background:#26BBA4;
+    width: 227px;
+    height: 56px;
+    color: #fff;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 16px;
+    border: none;
+}
+.buttons .two{
+    background: #6174FF;
+    width: 227px;
+    height: 56px;
+    color: #fff;
+    border-radius: 28px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 154px;
+    border: none;
+
+}
+
+.buttons .finish{
+    text-align: center;
+    border: none;
+    margin-top: 28px;
+    margin-left: 204px;
+    margin-right: 485px;
+}
+.middle h1{
+text-align: center;
+color: #4C545C;
+margin-bottom: 19px;
+}
+.middle p{
+    text-align:center;
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.14px;
+    color: #9EABB2;
+    margin-bottom: 69px;
+    width: 1330px;
+    height: 90px;
+}
+.gone{
+    margin-bottom: 114px ;
+}
+.third{
+    display: flex;
+
+}
+.fourth{
+    margin-left: 82px;
+    margin-top: 76px;
+}
+.fourth .one{
+    height: 155px;
+}
+.fourth h1{
+    font-family: 'Bai Jamjuree';
+    font-weight:600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.39;
+    color: #4C545C;
+    margin-bottom: 8px;
+
+}
+.fourth p{
+color: #9EABB2;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.12px;
+margin-bottom: 56px;
+
+font-family: 'Bai Jamjuree';
+height: 98px;
+width: 350px;
+margin-bottom: 146px;
+}
+.fifth{
+    text-align: center;
+    margin-top: 154px;
+    width: 730px;
+    margin-left: 341px;
+    margin-right: 369px;
+}
+.fifth h1{
+    font-family: 'Bai Jamjuree SemiBold';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #4C545C;
+    margin-bottom: 19px;
+}
+.fifth p{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9EABB2;
+    margin-bottom: 114px;
+}
+.sixth img{
+        margin-left: 314px;
+        width: 812px;
+        height: 475px;
+        margin-bottom: 161px;
+}
+.seventh{
+    width: 730px;
+    height: 94px;
+    margin-left: 354px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.seventh h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 19px;
+    color: #4C545C;
+    
+}
+.seventh p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #9EABB2;
+    margin-bottom: 72px;
+    letter-spacing: 0.12px;
+    margin-right: 30px;
+}
+.eigth{
+    margin-left: 166px;
+    display: flex;
+    margin-bottom: 174px;
+}
+.eigth .first{
+    width: 350px;
+    height: 216px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.eigth .first img{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.eigth .first h1{
+    margin-bottom: 16px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4C545C;
+
+}
+.eigth .first p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:#9EABB2;  
+}
+.ninth{
+    width: 1110px;
+    height: 72px;
+    margin-left: 165px;
+    display: flex;
+    margin-bottom: 122px;
+    
+}
+.ninth img{
+    margin-right: 94.4px;
+
+}
+.tenth{
+    width: 730px;
+    height: 228px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+.tenth h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #4C545C;
+    margin-bottom: 19px;
+}
+.tenth p{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    color: #9EABB2;
+    margin-bottom: 48px;
+}
+.eleventh{
+    background:#9EABB2;
+    opacity: 0.1;
+    margin-top: 150px;
+    
+
+}
+.eleventh  .whole{
+    display: block;
+}
+.eleventh .one{
+    margin-top: 48px;
+    display: flex;
+    margin-bottom: 61px;
+}
+.eleventh .one img{
+    margin-left: 165px;
+    margin-right: 135px;
+    margin-top: 39px;
+}
+.eleventh .two{
+    display: flex;
+    margin-top: 39px;
+}
+.eleventh .two h1{
+    font-family: 'Bai Jamjuree';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 39px;
+    color: #4C545C;
+    margin-left: 30px;
+    margin-bottom: 24px;
+    letter-spacing: 0.135px;
+
+}
+.eleventh .three{
+    display: flex;
+    margin-left: 355px;
+    margin-bottom: 19px ;
+}
+.eleventh .three h1{
+font-family: 'Bai Jamjuree';
+font-weight: 400;
+font-size: 18px;
+font-style: normal;
+line-height: 30px;
+color: #4C545C;
+margin-bottom: 19px;
+margin-left: 135px;
+width: 160px;
+height: 30px;
+letter-spacing: 0.135px;
+}
+
+ .container-flex{
+    background: #9EABB2;
+    margin-top: 61px;
+     width: 1440px; 
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    opacity: 0.1;
+}
+
+footer img{
+    width: 60px;
+    margin-top: 43px;
+}
+footer .one img{
+    width: 100px;
+    margin-left: 165px;
+    margin-right: 135px;
+}
+footer .social img:hover{
+    background-color: #26BBA4;
+}
+footer ul{
+
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+footer .container-flex{
+    margin-bottom: 0;
+    
+}
+footer ul a {
+    color: #9EABB2;
+    text-decoration:none;
+}
+footer .links li{
+    padding: 10px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family:'Bai Jamjuree';
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    margin-top: 43px;
+}
+li a{
+    text-decoration: none;
+    color: #4C545C;
+}
+footer .social{
+    margin-top: 18px;
+    
+} 
+footer .social img{
+    width: 24px;
+
+}
+footer .social img:not(:first-child){
+    padding-left: 24px;
+}
+
+
+
+@media only screen and (max-width:375px){
+ body{
+    display: block;
+    margin: 0;
+    padding: 0;
+} 
+    .container{
+     width: 375px;
+    /* height: 5205px; */
+    background: #FFFFFF;
+    display: block;
+    /* margin-bottom: 64px; */
+     margin-left: 0; 
+  align-items: left;
+    }
+    
+    .icon .image2{
+        width: 200px;
+        text-align: left;
+        padding-right: 1300px;
+    }
+    .glory{
+        margin-left: 635px;
+        width: 314px;
+        height: 17px;
+    }
+    .glory h1{
+        width: 311px;
+        height: 80px;
+        margin-bottom: 16px;
+        line-height: 40px;
+        margin-top: 64px;
+        font-family: 'Bai Jamjuree';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 32px;
+        color: #4C545C;
+        margin-bottom: 16px;
+    }
+    .glory p{
+        width: 350px;
+        height: 78px;
+        font-family: 'Bai Jamjuree';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+
+    }
+    .buttons{
+    margin-left: 680px; 
+    margin-top: 180px;
+    padding-top: 8px;     
+    }
+    .buttons .one{
+        margin-bottom: 24px;
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle .gone{
+        margin-left: 640px;
+        width: 312px;
+        height: 219px;
+        display: block;
+    }
+    .middle .gone h1{
+        font-family: 'Bai Jamjuree SemiBold';
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 35px;
+        color:#4C545C;
+
+    }
+    .middle .gone p{
+    padding-right: 99px;
+    margin-right: 40px;
+    text-align: center;
+    width: 311px;
+    height: 130px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    }
+
+    .third  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 307px;
+    }
+
+    .fourth{
+        margin-left: 114px;
+    }
+  .fourth .touch h1{
+    margin-left: 10px;
+    width: 511px;
+  }   
+  .fourth .touch .one p{
+    margin-left: 130px;
+  }
+.fifth h1{
+    width: 317px;
+    margin-left: 160px;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Bai Jamjuree';
+    height: 70px;
+    }
+    .seventh h1{
+        color: #4C545C;
+        margin-left: 213px;
+        line-height: 35px;
+        width: 317px;
+        font-size: 28px;
+        letter-spacing: -0.4px;
+        margin-bottom: 11px;
+
+    }
+    .seventh p{
+        color: #9EABB2;
+        width: 311px;
+        height: 52px;
+        letter-spacing: 0.12px;
+        margin-left: 213px;
+
+    }
+    .eigth{
+        display: block;
+        margin-left: 589px;
+        margin-top: 166px;
+
+    }
+    .ninth{
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 520px;
+        margin-bottom: 0;
+    }
+    .tenth{
+        margin-top: 400px;
+        margin-left: 610px;
+        height: 190px;
+
+
+    }
+    .tenth h1{
+        color: #4C545C;
+        width: 311px;
+        height: 70px;
+        margin-bottom: 36px;
+}
+.tenth p{
+    width: 311px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+} 
+}
