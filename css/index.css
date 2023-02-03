@@ -568,7 +568,7 @@ p.seed{
    margin: 0;
     display: flex;
     flex-direction: column;
-
+    
 
 }
 .footer{
@@ -583,13 +583,16 @@ footer .container-flex {
 }
 .container-flex .one img{
     margin: 0;
+    padding-left: 100px;
+    padding-top: 50px;
 }
-/* .links{
-} */
+.container-flex .links{
+padding-left: 100px;
+} 
 
-/* .social{
-   
-} */
+.social{
+ padding-left: 100px;  
+}
 }
 
 
@@ -700,7 +703,7 @@ footer .container-flex {
     }
     .fifth p{
         width: 350px;
-        padding-left: 200px;
+        padding-left: 150px;
     }
     .sixth img{
         width: 603px;
@@ -716,4 +719,59 @@ footer .container-flex {
         width: 263px;
         padding-left: 230px;
     }
+    .eigth{
+        display: flex;
+        flex-direction: column;
+        padding-left: 400px;
+    }
+    .eigth .first{
+        margin-left: -20px;
+        padding-top: 50px;
+    }
+    .eigth .first p{
+        width: 315px;
+    }
+    .ninth{
+        display: flex;
+        flex-direction: column;
+        padding-left: 550px;
+        margin-top: -90px;
+    }
+    .image4{
+        padding-bottom: 60px;
+        
+    }
+    .tenth h1{
+        width: 300px;
+        padding-left: 200px;
+    }
+    .tenth p{
+        width: 351px;
+        padding-left: 200px;
+    }
+    .buttons .finish{
+        margin-left: 288px;
+    }
+    
+.footer{
+    width: 375px;
+}
+footer .container-flex {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 875px;
+    padding-left: 300px;
+
+}
+.container-flex .one img{
+padding-left: 78px;    
+
+}
+.container-flex .links{
+    padding-left: 255px;
+}
+footer .social{
+    padding-left: 250px;
+}
 }
