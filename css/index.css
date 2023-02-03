@@ -477,6 +477,7 @@ overflow: hidden;
 }
 .buttons .one{
     margin-bottom: 20px;
+    width: 311px;
 }
 p.seed{
     margin: 0;
@@ -651,16 +652,19 @@ padding-left: 100px;
         margin-bottom: 30px;
     
     }
+    .buttons .two{
+        margin-left: 1px;
+    }
     .gone{
         margin-left: -73px;
     }
     .middle h1{
         width: 383px;
-        padding-left: 300px;
+        padding-left: 284px;
     }
     .middle p{
         width: 350px;
-        padding-left: -17px;
+        margin-left: 300px;
         padding-top: 10px;
     }
     .third{
@@ -677,21 +681,21 @@ padding-left: 100px;
         padding-left: 150px;
     }
     .one p{
-        padding-left: 200px;
+        margin-left: 200px;
         width: 300px;
     }
     .two h1{
         padding-left: 150px;
     }
     .two p{
-        padding-left: 200px;
+        margin-left: 200px;
         width: 300px;
     }
     .three h1{
         padding-left: 150px;
     }
     .three p{
-        padding-left: 200px;
+        margin-left: 200px;
         width: 300px;
     }
     .down{
