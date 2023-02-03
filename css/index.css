@@ -630,21 +630,25 @@ footer .container-flex {
     }
     .glory h1{
         width: 383px;
-        padding-left: 300px;
+        padding-left: 200px;
     }
     .glory p{
         width: 370px;
-        padding-left: 300px;
+        padding-left: 200px;
         line-height: 26px;
         padding-bottom: 50px;
     }
     .buttons{
         display: flex;
         flex-direction: column;
+        margin-left: 270px;
     }
     .buttons .one{
         margin-bottom: 30px;
     
+    }
+    .gone{
+        margin-left: -73px;
     }
     .middle h1{
         width: 383px;
@@ -658,5 +662,58 @@ footer .container-flex {
     .third{
         display: flex;
         flex-direction: column;
+    }
+    .third img{
+        width: 500px;
+        padding-left: 200px;
+        margin-top: -80px;
+        padding-bottom: 80px;
+    }
+    .one h1{
+        padding-left: 150px;
+    }
+    .one p{
+        padding-left: 200px;
+        width: 300px;
+    }
+    .two h1{
+        padding-left: 150px;
+    }
+    .two p{
+        padding-left: 200px;
+        width: 300px;
+    }
+    .three h1{
+        padding-left: 150px;
+    }
+    .three p{
+        padding-left: 200px;
+        width: 300px;
+    }
+    .down{
+        margin-top: -300px;
+        margin-left: -200px;
+    }
+    .fifth h1{
+        width: 300px;
+        padding-left: 180px;
+    }
+    .fifth p{
+        width: 350px;
+        padding-left: 200px;
+    }
+    .sixth img{
+        width: 603px;
+    }
+    .seventh{
+        margin-left: 300px;
+    }
+    .seventh h1{
+        width: 300px;
+        padding-left: 200px;
+    }
+    .seventh p{
+        width: 263px;
+        padding-left: 230px;
     }
 }
