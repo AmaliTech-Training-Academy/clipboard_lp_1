@@ -441,7 +441,7 @@ footer .social img:not(:first-child){
     flex-direction: column;
     overflow-y: hidden;
     /* background-color: #6174FF; */
-    width: 375px;
+    width: 420px;
 }
 .image1{
     display: none;
@@ -519,7 +519,7 @@ p.seed{
 }
 .fourth p{
     width: 317px;
-    
+    padding-left: 73px;
 }
 .down{
     margin-top: -70px;
