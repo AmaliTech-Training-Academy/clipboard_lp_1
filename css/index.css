@@ -36,7 +36,7 @@
   }
 .glory h1{
     font-family: 'Bai Jamjuree SemiBold';
-    font-size: 46px;
+    font-size: 38px;
     font-weight: 600;
     line-height: 57.5px;
     letter-spacing: -0.75px;
@@ -45,7 +45,7 @@
     color: #4C545C;
     margin-bottom: 32px;
 
-}3
+}
 img{
     align-items: center;
 }
@@ -463,14 +463,14 @@ overflow: hidden;
     width: 312px;
 }
  .glory h1{
-margin-left: -10px;
-margin-right: 30px ;
- width: 394px; 
+ 
+ padding-left: 30px;
+ width: 318px;
 } 
 .glory p{
     line-height: 26px;
     width: 370px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .buttons{
     display: flex;
@@ -498,7 +498,7 @@ p.seed{
     width: 370px;
     padding-left: 20px;
 }
-}
+
 
 .third{
     display: flex;
@@ -656,12 +656,13 @@ padding-left: 100px;
         padding-left: 100px;
     }
     .glory h1{
-        width: 383px;
-        padding-left: 200px;
+    
+        padding-left: 185px;
+        width: 318px;
     }
     .glory p{
         width: 375px;
-        padding-left: 200px;
+        padding-left: 156px;
         line-height: 26px;
         padding-bottom: 50px;
     }
