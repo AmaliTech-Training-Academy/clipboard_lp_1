@@ -468,6 +468,7 @@ overflow: hidden;
 } */
 .glory p{
     line-height: 26px;
+    width: 370px;
 }
 .buttons{
     display: flex;
@@ -489,17 +490,20 @@ p.seed{
     width: 389px;
 }
 .middle p{
-    width: 310px;
+    width: 339px;
     line-height: 26px;
+    margin-left: 20px;
 }
 
 .third{
     display: flex;
     flex-direction: column;
+    margin-top: -70px;
 }
 .third .image{
     width: 312px;
-    margin: 0;
+    margin-top: -70px;
+    margin-left: 50px;
 }
 .third .image img{
     width: 312px;
@@ -508,16 +512,25 @@ p.seed{
 .fourth{
     margin-left: 1px;
 }
+.fourth p{
+    width: 317px;
+    
+}
+.down{
+    margin-top: -70px;
+    padding-left: 30px;
+}
 .fifth{
    margin: 0;
 }
 .fifth h1{
     width: 310px;
    margin: 0;
+   padding-bottom: 20px ;
 }
 
 .fifth p{
-    width: 275px;
+    width: 342px;
     line-height: 26px;
 }
 .sixth img{
@@ -554,7 +567,7 @@ p.seed{
 .ninth{
     display: flex;
     flex-direction: column;
-   
+   padding-left: 30px;
 }
 .ninth .image4{
     margin-bottom: 80px;
@@ -642,7 +655,7 @@ padding-left: 100px;
         padding-left: 200px;
     }
     .glory p{
-        width: 370px;
+        width: 375px;
         padding-left: 200px;
         line-height: 26px;
         padding-bottom: 50px;
@@ -669,7 +682,7 @@ padding-left: 100px;
         padding-left: 284px;
     }
     .middle p{
-        width: 350px;
+        width: 339px;
         margin-left: 300px;
         padding-top: 10px;
     }
