@@ -555,7 +555,7 @@ p.seed{
     display: flex;
     flex-direction: column;
    margin: 0;
-   padding-left: 334px;
+   padding-left: 33px;
 }
 .eigth .first{
     margin-bottom: 109px;
@@ -568,12 +568,14 @@ p.seed{
 } */
 .eigth .first p{
     width: 311px;
+    text-align: center;
     line-height: 26px;
+    margin-left: -50px;
 }
 .ninth{
     display: flex;
     flex-direction: column;
-   padding-left: 40px;
+   padding-left: 70px;
 }
 .ninth .image4{
     margin-bottom: 80px;
@@ -773,6 +775,7 @@ padding-left: 100px;
     .eigth .first p{
         width: 315px;
         text-align: center;
+        padding-left: 40px;
     }
     .ninth{
         display: flex;
@@ -810,11 +813,11 @@ footer .container-flex {
 
 }
 .container-flex .one img{
-padding-left: 78px;    
+padding-left: 110px;    
 
 }
 .container-flex .links{
-    padding-left: 255px;
+    padding-left: 289px;
 }
 footer .social{
     padding-left: 250px;
