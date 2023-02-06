@@ -449,7 +449,7 @@ footer .social img:not(:first-child){
 }
 .image2{
 position: absolute;
-left: 100px;
+left: 145px;
 overflow: hidden;
 
 }
@@ -457,9 +457,11 @@ overflow: hidden;
     display: block;
     position: absolute;
     overflow: hidden;
+    width: 900px;
+    height: 500px;
 }
 .glory{
-    padding-top:300px ;
+    padding-top:444px ;
     width: 312px;
 }
  .glory h1{
@@ -516,10 +518,15 @@ p.seed{
 }
 .fourth{
     margin-left: 1px;
+    padding-top: 89px;
 }
 .fourth p{
     width: 317px;
     padding-left: 73px;
+}
+.middle h1{
+    text-align: center;
+    padding-bottom: 20px;
 }
 .down{
     margin-top: -70px;
@@ -589,6 +596,7 @@ p.seed{
 }
 .tenth p{
     width: 351px;
+    text-align: center;
 }
 .buttons .finish{
    margin: 0;
@@ -604,7 +612,7 @@ footer .container-flex {
     margin-left: -30px;
     display: flex;
     flex-direction: column;
-    width: 390px;
+    width: 450px;
 
 }
 .container-flex .one img{
