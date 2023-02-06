@@ -163,7 +163,6 @@ margin-bottom: 19px;
     letter-spacing: -0.39;
     color: #4C545C;
     margin-bottom: 8px;
-
 }
 .fourth p{
 color: #9EABB2;
@@ -479,6 +478,10 @@ overflow: hidden;
     margin-bottom: 20px;
     width: 311px;
 }
+.buttons .two{
+    width: 311px;
+    margin-left: 0;
+}
 p.seed{
     margin: 0;
 }
@@ -614,7 +617,7 @@ padding-left: 100px;
     }
     .image2{
     position: absolute;
-    left: 361px;
+    left: 404px;
     overflow: hidden;
     
     }
@@ -632,6 +635,7 @@ padding-left: 100px;
     }
     .glory{
         padding-top: 40px;
+        padding-left: 100px;
     }
     .glory h1{
         width: 383px;
@@ -650,10 +654,12 @@ padding-left: 100px;
     }
     .buttons .one{
         margin-bottom: 30px;
+        width: 311px;
     
     }
     .buttons .two{
         margin-left: 1px;
+        width: 311px;
     }
     .gone{
         margin-left: -73px;
@@ -755,7 +761,7 @@ padding-left: 100px;
         padding-left: 200px;
     }
     .buttons .finish{
-        margin-left: 288px;
+        margin-left: 254px;
     }
     
 .footer{
