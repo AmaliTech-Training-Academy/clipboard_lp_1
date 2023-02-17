@@ -45,6 +45,9 @@ h3{
 color: #4C545C;
 font-size: 36px;
 }
+p{
+    line-height: 30px;
+}
 .first, .second p{
     color:#9EABB2;
     font-weight: lighter;
