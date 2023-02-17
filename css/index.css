@@ -1,394 +1,174 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family:'Bai Jamjuree SemiBold';
+    margin: auto;
+    background:url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    text-align: center;
 }
 .container{
-    display: flex;
-    flex-direction: column;
     width: 1440px;
-    overflow: hidden;
-
 }
-.icon{
+.image{
     text-align: center;
-    margin-top: 0;
-   position: relative;
-    top: 0;
-    left: 0;
-  }
-.image1{
-    position: relative;
-    top: -22px;
-    left: 96px;
-    /*margin-bottom: 56px;*/
-    width: 1439px;
-    opacity: 0.25;
-}  
-  .image2 {
-    position: absolute;
-    top: 130px;
-    left: 658px;
-  }
-  .image3{
-    display: none;
-  }
-.glory h1{
-    font-family: 'Bai Jamjuree SemiBold';
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 57.5px;
-    letter-spacing: -0.75px;
+    display: block;
+    padding-top: 80px;
+}
+.first, .second{
     text-align: center;
-    margin-top: 56px;
+    padding-bottom: 20px;
+}
+.first p{
+    width: 639px;
+}
+.second{
+    padding-bottom: 44px;
+}
+.second h1{
+    margin-left: -309px;
+}
+h1{
     color: #4C545C;
-    margin-bottom: 32px;
 
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 56px ;
 }
-img{
-    align-items: center;
+h2{
+    color: #4C545C;
+    font-size: 24px;
+    font-weight: 600;
 }
-.glory p{
-    font-family: 'Bai Jamjuree SemiBold';
-    color: #9EABB2;
-    font-size: 20px;
+h3{
+color: #4C545C;
+font-size: 36px;
+}
+.first, .second p{
+    color:#9EABB2;
+    font-weight: lighter;
     text-align: center;
-    margin-bottom: 32px;
+    width: 698px;
+    padding-left: 210px;
+    font-size: 20px;
 }
 
-.picone{
-position:absolute;
-top: 10px;
-left: 10px;
-z-index: 1;
-}
-.pictwo{
-position:absolute;
-top: 25px;
-left: 25px;
-z-index: 2;
-}
 .buttons{
     text-align: center;
-    border: none;
-    margin-top: 48px;
-    margin: auto;
-    margin-bottom: 100px;
-    
-}
+    margin-left: -350px;
+}  
 .buttons .one{
-    background:#26BBA4;
     width: 227px;
     height: 56px;
-    color: #fff;
-    border-radius: 28px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
+    background-color:  #26BBA4;
     border: none;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 18px;
+     margin-right: 17px;
+
 }
 .buttons .two{
-    background: #6174FF;
     width: 227px;
     height: 56px;
-    color: #fff;
+    background-color:  #6174FF;
+    border: none;
     border-radius: 28px;
-    text-align: center;
+    color: #fff;
     font-size: 18px;
-   font-weight: 600;
-    border: none;
-    margin-left: 20px;
 
-}
 
-.buttons .finish{
-    text-align: center;
-    border: none;
-    margin-top: 28px;
-    margin-left: 204px;
-    margin-right: 485px;
-}
-.middle h1{
-text-align: center;
-color: #4C545C;
-margin-bottom: 19px;
-}
-.middle p{
-    text-align:center;
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 40px;
-    letter-spacing: 0.14px;
-    color: #9EABB2;
-    margin-bottom: 69px;
-    width: 1330px;
-    padding-bottom: 90px;
-}
-.gone{
-    margin-bottom: 114px ;
-}
-.gone p{
-    width: 730px;
-    margin-left: 330px;
-    line-height: 30px;
 }
 .third{
     display: flex;
-
 }
-
-.third .image{
-;
+.image-computer img{
+    margin-left: -155px;
+    width: 552px;
+    padding-right: 10px;
 }
-.fourth{
-    margin-left: 82px;
-    margin-top: 76px;
+.items{
+    padding-left: 110px;
 }
-.fourth .one{
-    margin-top: -50px;
-}
-.fourth .two{
-    margin-top: -198px;
-}
-.fourth .three{
-    margin-top: -198px;
-}
-.fourth h1{
-    font-family: 'Bai Jamjuree';
-    font-weight:600;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.39;
-    color: #4C545C;
-    margin-bottom: 8px;
-}
-.fourth p{
-color: #9EABB2;
-font-size: 16px;
-font-weight: 400;
-line-height: 40px;
-letter-spacing: 0.12px;
-margin-bottom: 56px;
-
-font-family: 'Bai Jamjuree';
-width: 350px;
-margin-bottom: 146px;
-}
-.fifth{
-    text-align: center;
-    margin-top: 154px;
-    width: 730px;
-    margin-left: 341px;
-    margin-right: 369px;
-}
-.fifth h1{
-    font-family: 'Bai Jamjuree SemiBold';
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    color: #4C545C;
-    margin-bottom: 19px;
-}
-.fifth p{
-    font-family: 'Bai Jamjuree';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #9EABB2;
-    margin-bottom: 114px;
-}
-.sixth img{
-        margin-left: 314px;
-        width: 812px;
-        
-        margin-bottom: 161px;
-}
-.seventh{
-    width: 730px;
-    margin-left: 298px;
-    text-align: center;
-    margin-bottom: 57px;
-}
-.seventh h1{
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    padding-bottom: 19px;
-    color: #4C545C;
-    
-}
-.seventh p{
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #9EABB2;
-    margin-bottom: 72px;
-    letter-spacing: 0.12px;
-    margin-right: 30px;
-}
-.eigth{
-    margin-left: 166px;
-    display: flex;
-    margin-bottom: 174px;
-}
-.eigth .first{
+.item p{
+ 
     width: 350px;
-    margin-left: 30px;
-    margin-right: 20px;
+    color:#9EABB2;
+    font-weight: lighter;
+     font-size: 16px;
+     line-height: 30px;
+     
 }
-.eigth .first img{
-    margin-left: 50px;
-    margin-bottom: 40px;
+.item .one p{
+    width: 319px;
 }
-.eigth .first h1{
-    margin-bottom: 16px;
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    color: #4C545C;
-
+.item .two p{
+    width: 309px;
 }
-.eigth .first p{
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color:#9EABB2;  
+.item .two p{
+    width: 297px;
 }
-.ninth{
+.first.two p{
+    width: 686px;
+}
+.image .second img{
+    margin-left: -200px;
+    width: 812px;
+}
+.list{
+    display: flex;
+    text-align: left;
     width: 1110px;
-    padding-left: 150px;
-    display: flex;
-    margin-bottom: 122px;
-    
+    padding-bottom: 30px;
 }
-.ninth img{
-    margin-right: 94.4px;
-
+.list .one{
+    padding-left: 95px;
 }
-.tenth{
-    width: 730px;
-    margin-left: 335px;
-    margin-right: 335px;
-}
-.tenth h1{
-    font-family: 'Bai Jamjuree';
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 45px;
-    color: #4C545C;
-    margin-bottom: 19px;
-}
-.tenth p{
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.14px;
+.list .one p{
     color: #9EABB2;
-    margin-bottom: 48px;
-}
-.eleventh{
-    background:#9EABB2;
-    opacity: 0.1;
-    margin-top: 150px;
-    
-
-}
-.eleventh  .whole{
-    display: block;
-}
-.eleventh .one{
-    margin-top: 48px;
-    display: flex;
-    margin-bottom: 61px;
-}
-.eleventh .one img{
-    margin-left: 165px;
-    margin-right: 135px;
-    margin-top: 39px;
-}
-.eleventh .two{
-    display: flex;
-    margin-top: 39px;
-}
-.eleventh .two h1{
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
+    width: 291px;
+    text-align: center;
     line-height: 30px;
-    margin-top: 39px;
-    color: #4C545C;
-    margin-left: 30px;
-    margin-bottom: 24px;
-    letter-spacing: 0.135px;
-
 }
-.eleventh .three{
-    display: flex;
-    margin-left: 355px;
-    margin-bottom: 19px ;
+.one.two p{
+    width: 309px;
 }
-.eleventh .three h1{
-font-family: 'Bai Jamjuree';
-font-weight: 400;
-font-size: 18px;
-font-style: normal;
-line-height: 30px;
-color: #4C545C;
-margin-bottom: 19px;
-margin-left: 135px;
-width: 160px;
-letter-spacing: 0.135px;
+.one.three p{
+    width: 317px;
 }
-.eleventh .three {
-    display: flex;
-    margin-left: 355px;
-    margin-bottom: 19px;
+.one img{
+    padding-left: 50px;
+}
+.list .part{
+    text-align: center;
+    width: 1100px;
+    padding-left: 60px;
+}
+.part img{
+padding-right: 60px;
 }
 
-.eleventh .three h1 {
-    font-family: 'Bai Jamjuree';
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 30px;
-    color: #4C545C;
-    margin-bottom: 19px;
-    margin-left: 135px;
-    width: 160px;
-    letter-spacing: 0.135px;
-}
-
- .container-flex{
+.container-flex{
     background: rgba(158, 171, 178, 0.1);
     margin-top: 61px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     /* opacity: 0.1; */
-
 }
-
 footer img{
     width: 60px;
     margin-top: 43px;
 }
 footer .one img{
     width: 100px;
-    margin-left: 165px;
+    margin-left: 15px;
     margin-right: 135px;
 }
 footer .social img:hover{
     background-color: #26BBA4;
 }
 footer ul{
-
     padding: 0;
     list-style-type: none;
     flex-wrap: wrap;
@@ -420,414 +200,11 @@ li a{
 }
 footer .social{
     margin-top: 18px;
-    
+    padding-right: 200px;
 } 
 footer .social img{
     width: 24px;
-
 }
-
 footer .social img:not(:first-child){
-    padding-left: 24px;
-}
-
-
-
-
-@media only screen and (min-width:320px) and (max-width:480px){
-
-    .container{
-    display: flex;
-    flex-direction: column;
-    overflow-y: hidden;
-    /* background-color: #6174FF; */
-    width: 420px;
-}
-.image1{
-    display: none;
-    width: 375px;
-}
-.image2{
-position: absolute;
-left: 145px;
-overflow: hidden;
-
-}
-.image3{   
-    display: block;
-    position: absolute;
-    overflow: hidden;
-    width: 900px;
-    height: 500px;
-}
-.glory{
-    padding-top:444px ;
-    width: 312px;
-}
- .glory h1{
- 
- padding-left: 30px;
- width: 318px;
-} 
-.glory p{
-    line-height: 26px;
-    width: 370px;
-    padding-left: 10px;
-}
-.buttons{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.buttons .one{
-    margin-bottom: 20px;
-    width: 311px;
-}
-.buttons .two{
-    width: 311px;
-    margin-left: 0;
-}
-p.seed{
-    margin: 0;
-    padding-left: 20px;
-}
-.middle h1{
-    width: 389px;
-}
-.middle p{
- 
-    line-height: 26px;
-    width: 370px;
-    padding-left: 20px;
-}
-
-
-.third{
-    display: flex;
-    flex-direction: column;
-    margin-top: -70px;
-}
-.third .image{
-    width: 312px;
-    margin-top: -70px;
-    margin-left: 50px;
-}
-.third .image img{
-    width: 312px;
-    /* margin-top: -100px; */
-}
-.fourth{
-    margin-left: 1px;
-    padding-top: 89px;
-}
-.fourth p{
-    width: 317px;
-    padding-left: 73px;
-}
-.middle h1{
-    text-align: center;
-    padding-bottom: 20px;
-}
-.down{
-    margin-top: -70px;
-    padding-left: 30px;
-}
-.fifth{
-   margin: 0;
-}
-.fifth h1{
-    width: 310px;
-   margin: 0;
-   padding-bottom: 20px ;
-}
-
-.fifth p{
-    width: 342px;
-    line-height: 26px;
-}
-.sixth img{
-    width: 311px;
-    margin: 0;
-}
-.seventh{
-    margin: 0;
-}
-.seventh h1{
-    width: 310px;
-}
-.seventh p{
-    width: 275px;
-}
-.eigth{
-    display: flex;
-    flex-direction: column;
-   margin: 0;
-   padding-left: 33px;
-}
-.eigth .first{
-    margin-bottom: 109px;
-}
-/* .eigth .first img{
-   
-} */
-/* .eigth .first h1{
-    
-} */
-.eigth .first p{
-    width: 311px;
-    text-align: center;
-    line-height: 26px;
-    margin-left: -50px;
-}
-.ninth{
-    display: flex;
-    flex-direction: column;
-   padding-left: 70px;
-}
-.ninth .image4{
-    margin-bottom: 80px;
-}
-.tenth h1{
-    width: 310px;
-    line-height: 100%;
-}
-.tenth{
-    margin: 0;
-}
-.tenth p{
-    width: 351px;
-    text-align: center;
-}
-.buttons .finish{
-   margin: 0;
-    display: flex;
-    flex-direction: column;
-    
-
-}
-.footer{
-    width: 375px;
-}
-footer .container-flex {
-    margin-left: -30px;
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-
-}
-.container-flex .one img{
-    margin: 0;
-    padding-left: 100px;
-    padding-top: 50px;
-}
-.container-flex .links{
-padding-left: 100px;
-} 
-
-.social{
- padding-left: 100px;  
-}
-}
-
-
-@media only screen and (min-width:768px) and (max-width:1024px){
-    
-    .container{
-        display: flex;
-        flex-direction: column;
-        overflow-y: hidden;
-        /* background-color: #6174FF; */
-        width: 875px;
-    }
-    .image1{
-        display: none;
-        width: 975px;
-
-    }
-    .image2{
-    position: absolute;
-    left: 404px;
-    overflow: hidden;
-    
-    }
-    .icon{
-        padding-bottom: 400px;
-        text-align: center;
-        padding-left: -1100px;
-    }
-    .image3{   
-        display: block;
-        position: absolute;
-        overflow: hidden;
-        width: 900px;
-        height: 500px;
-    }
-    .glory{
-        padding-top: 40px;
-        padding-left: 100px;
-    }
-    .glory h1{
-    
-        padding-left: 185px;
-        width: 318px;
-    }
-    .glory p{
-        width: 375px;
-        padding-left: 156px;
-        line-height: 26px;
-        padding-bottom: 50px;
-    }
-    .buttons{
-        display: flex;
-        flex-direction: column;
-        margin-left: 270px;
-    }
-    .buttons .one{
-        margin-bottom: 30px;
-        width: 311px;
-    
-    }
-    .buttons .two{
-        margin-left: 1px;
-        width: 311px;
-    }
-    .gone{
-        margin-left: -73px;
-    }
-    .middle h1{
-        width: 383px;
-        padding-left: 284px;
-    }
-    .middle p{
-        width: 339px;
-        margin-left: 300px;
-        padding-top: 10px;
-    }
-    .third{
-        display: flex;
-        flex-direction: column;
-    }
-    .third img{
-        width: 500px;
-        padding-left: 200px;
-        margin-top: -80px;
-        padding-bottom: 80px;
-    }
-    .one h1{
-        padding-left: 150px;
-    }
-    .one p{
-        margin-left: 200px;
-        width: 300px;
-    }
-    .two h1{
-        padding-left: 150px;
-    }
-    .two p{
-        margin-left: 200px;
-        width: 300px;
-    }
-    .three h1{
-        padding-left: 150px;
-    }
-    .three p{
-        margin-left: 200px;
-        width: 300px;
-    }
-    .down{
-        margin-top: -300px;
-        margin-left: -253px;
-    }
-    .fifth h1{
-        width: 300px;
-        padding-left: 180px;
-    }
-    .fifth p{
-        width: 350px;
-        padding-left: 150px;
-    }
-    .sixth img{
-        width: 603px;
-    }
-    .seventh{
-        text-align: center;
-    }
-    .seventh h1{
-        width: 300px;
-        padding-left: 200px;
-    }
-    .seventh p{
-        width: 263px;
-        padding-left: 230px;
-    }
-    .eigth{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 500px;
-    }
-    .eigth .first{
-        margin-left: -20px;
-        padding-top: 50px;
-
-    }
-    .down{
-        padding-left: -334px;
-    }
-    .eigth .first h1{
-        text-align: center;
-    }
-    .eigth .first img{
-        margin-left: -45px;
-    }
-    .eigth .first p{
-        width: 315px;
-        text-align: center;
-        padding-left: 40px;
-    }
-    .ninth{
-        display: flex;
-        flex-direction: column;
-        padding-left: 597px;
-        margin-top: -90px;
-    }
-    .image4{
-        padding-bottom: 60px;
-        
-    }
-    .tenth h1{
-        width: 300px;
-        text-align: center;
-        padding-left: 220px;
-    }
-    .tenth p{
-        width: 351px;
-        padding-left: 200px;
-        text-align: center;
-    }
-    .buttons .finish{
-        margin-left: 254px;
-    }
-    
-.footer{
-    width: 375px;
-}
-footer .container-flex {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    width: 875px;
-    padding-left: 300px;
-
-}
-.container-flex .one img{
-padding-left: 110px;    
-
-}
-.container-flex .links{
-    padding-left: 289px;
-}
-footer .social{
-    padding-left: 250px;
-}
+    padding-left: 25px;
 }
