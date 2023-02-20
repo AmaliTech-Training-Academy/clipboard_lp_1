@@ -7,6 +7,8 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
     text-align: center;
+    width: 1110px;
+    opacity: 25px;
 }
 .container{
     width: 1440px;
@@ -27,12 +29,22 @@ body{
     padding-bottom: 44px;
 }
 .second h1{
-    margin-left: -309px;
+    text-align: center;
+    font-size: 46px;
+}
+.second p{
+    font-size: 20px;
+}
+.fourth h1{
+    font-size: 36px;
+    margin-left: -330px;
+}
+.fourth{
+    padding-bottom: 94px;
 }
 h1{
     color: #4C545C;
-
-    font-size: 24px;
+        font-size: 24px;
     font-weight: 600;
     padding-top: 56px ;
 }
@@ -48,13 +60,16 @@ font-size: 36px;
 p{
     line-height: 30px;
 }
-.first, .second p{
+.first, .second, .fourth p{
     color:#9EABB2;
     font-weight: lighter;
     text-align: center;
     width: 698px;
     padding-left: 210px;
-    font-size: 20px;
+}
+.fourth p{
+    font-size: 18px;
+    width: 620px;
 }
 
 .buttons{
@@ -87,7 +102,7 @@ p{
     display: flex;
 }
 .image-computer img{
-    margin-left: -155px;
+    margin-left: -135px;
     width: 552px;
     padding-right: 10px;
 }
@@ -112,8 +127,13 @@ p{
 .item .two p{
     width: 297px;
 }
+.first.two h1{
+    font-size: 36px;
+}
 .first.two p{
-    width: 686px;
+    width: 555px;
+    font-size: 18px;
+    padding-left: 40px;
 }
 .image .second img{
     margin-left: -200px;
@@ -126,7 +146,8 @@ p{
     padding-bottom: 30px;
 }
 .list .one{
-    padding-left: 95px;
+   /* padding-left: 95px; */
+   padding-left: 35px;
 }
 .list .one p{
     color: #9EABB2;
@@ -137,8 +158,15 @@ p{
 .one.two p{
     width: 309px;
 }
+.list.one.three{
+    padding-left: 20px;
+}
 .one.three p{
     width: 317px;
+    
+}
+.one .one.three h3{
+    padding-left: 20px;
 }
 .one img{
     padding-left: 50px;
@@ -157,7 +185,7 @@ padding-right: 60px;
     margin-top: 61px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    /* opacity: 0.1; */
+    margin-left: -29px;
 }
 footer img{
     width: 60px;
@@ -178,7 +206,7 @@ footer ul{
 }
 footer .container-flex{
     margin-bottom: 0;
-    
+
 }
 footer ul a {
     color: #9EABB2;
@@ -203,11 +231,298 @@ li a{
 }
 footer .social{
     margin-top: 18px;
-    padding-right: 200px;
+    margin-left: -240px;
 } 
 footer .social img{
     width: 24px;
 }
 footer .social img:not(:first-child){
     padding-left: 25px;
+}
+
+
+@media (min-width: 320px) and (max-width: 425px) { 
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ 
+    body{
+        
+    font-family:'Bai Jamjuree SemiBold';
+    margin: auto;
+    background:url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    text-align: center;
+    width: 320px;
+    background-size: cover;
+    
+}
+.container{
+width: 590px;
+overflow-x: hidden;
+}
+.image{
+    width: 125px;
+    text-align: center;
+    display: block;
+    padding-left: 240px;
+}
+.image img{
+    padding-left: 100%;
+    width: 99px;
+}
+.second h1{
+    width: 424px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+}
+.second p{
+    width: 334px;
+    font-size: 16px;
+}
+.fourth p{
+    font-size: 16px;
+    width: 269px;
+    padding-left: 280px;
+}
+.buttons{
+    padding-left: 260px;
+    margin-left: -73px;
+}
+.buttons .one{
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+}
+.buttons .two{
+    padding-bottom: 40px;
+}
+.fourth h1{
+    text-align: center;
+    padding-left: 230px;
+    margin-left: 0;
+    width: 310px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+}
+.image-computer{
+    padding-left: 230px;
+    padding-bottom: 40px;
+}
+.image-computer img{
+    width: 312px;
+    padding-left: 173px;
+}
+.items{
+    padding-left: 243px;
+    width: 300px;
+}
+.item p{
+    width: 257px;
+}
+.first.two h1{
+    font-size: 24px;
+    width: 258px;
+    padding-left: 215px;
+}
+.first{
+    padding-left: 48px;
+}
+.first.two p{
+    width: 307px;
+    padding-left: 200px;
+}
+.image.second img{
+    width: 311px;
+    margin-left: -120px;
+}
+h2{
+    margin-bottom: 30px;
+}
+.first h3{
+    width: 300px;
+    padding-left: 200px;
+}
+.first.two h1{
+    margin-bottom: 30px;
+}
+.first h3{
+    margin-bottom: 30px;
+}
+.first p{
+    width: 245px;
+    padding-left: 200px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+.one img{
+    padding-left: 129px;
+}
+.one, .two, .three{
+    padding-top: 30px;
+}
+.one h3{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.list .part{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.part img{
+    width: 139px;
+    padding-left: 40px;
+    padding-bottom: 57px;
+}
+footer .container-flex{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+}
+footer .social{
+    padding-left: 200px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+    
+    body{
+        
+        font-family:'Bai Jamjuree SemiBold';
+        margin: auto;
+        background:url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+        text-align: center;
+        width: 320px;
+        background-size: cover;
+        padding: 0;
+    }
+    
+.container{
+    padding-left: 25px;
+    width: 890px;
+    overflow-x: hidden;
+    }
+        .second{
+    width: 300px;
+    margin-left: -200px;
+    }
+    .second p{
+        width: 349px;
+    }
+    .buttons{
+    text-align: center;
+    display: flex;
+    padding-left: 390px;
+    flex-direction: column;
+    }
+    .buttons .one{
+        margin-bottom: 30px;
+    }
+    .fourth h1{
+        width: 256px;
+        padding-left: 369px;
+    }
+    
+.fourth p {
+    font-size: 18px;
+    width: 304px;
+    text-align: center;
+    padding-right: 20000px;
+    text-align: left;
+    margin-left: -189px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+}
+.image-computer img{
+    width: 312px;
+}
+.image-computer{
+    margin-left: -339px;
+}
+.items{
+    padding-left: 0;
+}
+h2{
+    margin-left: -500px;
+}
+.item .one p{
+    width: 214px;
+    padding-left: 55px;
+}
+.item.two p{
+    width: 251px;
+    padding-left: 55px;
+}
+.item.three p{
+    width: 269px;
+    padding-left: 55px;
+}
+.first{
+    margin-left: -268px;
+    width: 406px;
+    padding-left: 263px;
+}
+.first.two p{
+    width: 319px;
+}
+.image.second img{
+    width: 311px;
+}
+.first p{
+    width: 290px;
+    padding-left: 48px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.list .one{
+    padding-bottom: 30px;
+}
+.list .one p{
+    width: 278px;
+}
+.one img{
+    padding-left: 144px;
+}
+h3{
+    padding-left: 39px;
+}
+
+.list .part{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.part img{
+    width: 139px;
+    padding-left: 40px;
+    padding-bottom: 57px;
+}
+footer .container-flex{
+    display: flex;
+    flex-direction: column;
+    width: 958px;
+}
+footer .social{
+    padding-left: 200px;
+}
 }
