@@ -255,16 +255,17 @@ footer .social img:not(:first-child){
     margin: auto;
     background:url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    overflow-x: auto;
     text-align: center;
    /* width: 320px;*/
+   max-width: 100%;
     background-size: cover;
     padding-left: 499px;
     
 }
 .container{
 width: 590px;
-overflow-x: hidden;
+overflow: hidden;
 }
 .image{
     width: 125px;
@@ -285,6 +286,7 @@ overflow-x: hidden;
     width: 334px;
     font-size: 16px;
 }
+
 .fourth p{
     font-size: 16px;
     width: 269px;
@@ -353,6 +355,7 @@ h2{
 .first h3{
     width: 300px;
     padding-left: 200px;
+    padding-top: 40px;
 }
 .first.two h1{
     margin-bottom: 30px;
@@ -369,6 +372,9 @@ h2{
     flex-direction: column;
     padding-left: 200px;
 }
+.list .one{
+    padding-left: 36px;
+}
 .one img{
     padding-left: 129px;
 }
@@ -384,16 +390,20 @@ h2{
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    padding-left: 120px;
 }
 .part img{
     width: 139px;
     padding-left: 40px;
     padding-bottom: 57px;
 }
+ 
 footer .container-flex{
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    width: 800px;
+    position:absolute
 }
 footer .social{
     padding-left: 200px;
