@@ -394,8 +394,8 @@ h2{
 }
 .part img{
     width: 139px;
-    padding-left: 40px;
     padding-bottom: 57px;
+    margin-left: -20px;
 }
  
 footer .container-flex{
