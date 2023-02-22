@@ -188,8 +188,8 @@ padding-right: 60px;
     margin-top: 61px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    margin-left: -219px;
-    background-size: cover;
+    margin-left: -89px;
+    background-size: coverg;
 }
 footer img{
     width: 60px;
@@ -197,7 +197,7 @@ footer img{
 }
 footer .one img{
     width: 100px;
-    margin-left: 250px;
+    margin-left: 15px;
     margin-right: 135px;
 }
 footer .social img:hover{
