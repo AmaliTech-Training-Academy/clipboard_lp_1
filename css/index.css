@@ -434,6 +434,7 @@ footer .social{
         width: 320px;
         background-size: cover;
         padding: 0;
+        overflow: hidden;
     }
     
 .container{
@@ -552,6 +553,11 @@ footer .container-flex{
 
 }
 footer .social{
-    padding-left: 200px;
+    margin-left:-315px;
 }
-footer .container-flex
+.container-flex .one{
+    margin-left: -315px;
+}
+.links{
+    margin-left: -315px;
+}
