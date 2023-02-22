@@ -9,6 +9,7 @@ body{
     text-align: center;
     width: 1110px;
     opacity: 25px;
+    background-size: cover;
 }
 .container{
     width: 1440px;
@@ -137,7 +138,7 @@ p{
 }
 .image.second img{
     margin-left: -200px;
-    width: 812px;
+    width: 752px;
     margin-bottom: -85px;
 }
 .list{
@@ -188,6 +189,7 @@ padding-right: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     margin-left: -89px;
+    background-size: cover;
 }
 footer img{
     width: 60px;
