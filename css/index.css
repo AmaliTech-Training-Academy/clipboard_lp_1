@@ -253,11 +253,12 @@ footer .social img:not(:first-child){
         
     font-family:'Bai Jamjuree SemiBold';
     margin: auto;
-    background:url(../images/bg-header-mobile.png);
+    background:url(../images/bg-header-mobile.png );
+    
     background-repeat: no-repeat;
-    overflow-x: auto;
+    overflow-x: hidden;
     text-align: center;
-   /* width: 320px;*/
+   width: 420px;
    max-width: 100%;
     background-size: cover;
     padding-left: 499px;
@@ -290,7 +291,7 @@ overflow: hidden;
 .fourth p{
     font-size: 16px;
     width: 269px;
-    padding-left: 280px;
+    padding-left: 245px;
 }
 .buttons{
     padding-left: 260px;
@@ -313,6 +314,7 @@ overflow: hidden;
 p{
     font-size: 16px;
     line-height: 26px;
+    letter-spacing: 0.12px;
 }
 .third{
     display: flex;
@@ -390,7 +392,7 @@ h2{
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    padding-left: 90px;
+    padding-left: 146px;
 }
 .part img{
     width: 139px;
@@ -407,6 +409,15 @@ footer .container-flex{
 }
 footer .social{
     padding-left: 200px;
+}
+footer .one img{
+    margin-left: -306px;
+}
+footer .links li{
+    margin-left: -306px;
+}
+footer .social{
+    margin-left: -426px;
 }
 }
 
