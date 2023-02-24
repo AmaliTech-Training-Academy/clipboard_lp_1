@@ -412,7 +412,7 @@ h2{
     width: 95%;
     color: #9EABB2;
     padding-bottom: 10%;
-    padding-left: 23px;
+    margin-left: -3px;
 }
 .first{
     padding-left: 90px;
@@ -464,6 +464,7 @@ letter-spacing: 0.11999999731779099px;
 width: 40%;
 color: #9EABB2;
 padding-bottom: 10%;
+
 }
 .image.second img{
     width: 100%;
