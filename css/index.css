@@ -423,6 +423,7 @@ h2{
     color: #4C545C;
     padding-bottom: 30px;
     width: 300px;
+    margin-left: -50px;
 }
 .list{
     padding-top: 30px;
@@ -456,7 +457,7 @@ h2{
 
 .first.two p{
 padding-top: 20px;
-
+margin-left: -30px;
 font-family: 'Bai Jamjuree';
 font-size: 16px;
 font-weight: 400;
