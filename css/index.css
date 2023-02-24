@@ -284,6 +284,7 @@ footer .social img:not(:first-child){
    background-size: 533px;    
    background-image:url(../images/bg-header-mobile.png);
    overflow: hidden;
+   margin: 0;
  }  
  .head img{
     padding-top: 130px;
