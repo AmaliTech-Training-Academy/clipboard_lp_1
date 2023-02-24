@@ -309,7 +309,7 @@ footer .social img:not(:first-child){
     width: 90%;
     padding-bottom: 10%;
     color: #4C545C;
-;
+
   
  }
  .second p{
@@ -328,6 +328,7 @@ padding-bottom: 10%;
     display: flex;
     margin: 0;
     flex-direction: column;
+    padding-left: 30px
  }
  .buttons .one{
     margin-bottom: 20px;
