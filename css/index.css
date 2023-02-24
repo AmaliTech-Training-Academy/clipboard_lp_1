@@ -11,6 +11,7 @@ body{
 }
 .container{
     width: 1440px;
+    margin-left: -30px;
 }
 .head{
 height: 383px;
