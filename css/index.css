@@ -489,10 +489,11 @@ width: 311px;
 .list{
     margin: 0;
 }
+   
 .list .one p{
     width: 26%;
-    padding: 0;
-    margin: 0;
+    padding-top: 12px;
+    margin-left: -100px;
     text-align: center;
 }
 .list .part{
