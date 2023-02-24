@@ -264,8 +264,10 @@ footer .social img:not(:first-child){
     background-image: none;
     width: 100%;
 
-
-
+ }
+ p{
+    margin: 0;
+    padding: 0;
  }
  .container{
     width: 320px;
