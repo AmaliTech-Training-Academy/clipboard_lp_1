@@ -428,6 +428,7 @@ h2{
     padding-top: 30px;
     display: flex;
     flex-direction: column;
+    padding-left: 90px;
 }
 .part{
     display: flex;
