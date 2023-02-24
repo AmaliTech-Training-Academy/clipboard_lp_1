@@ -11,7 +11,8 @@ body{
 }
 .container{
     width: 1440px;
-    margin-left: -259PX;
+    margin-left: 100PX;
+    text-align: center;
 }
 .head{
 height: 383px;
