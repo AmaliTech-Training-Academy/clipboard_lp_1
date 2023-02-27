@@ -312,6 +312,7 @@ footer .social img:not(:first-child){
     letter-spacing: -0.52173912525177px;
     width: max-content;
     width: 90%;
+    margin-top: -70px;
     padding-bottom: 10%;
     color: #4C545C;
 
