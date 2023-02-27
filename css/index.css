@@ -25,6 +25,9 @@ background-size: cover;
 background-image:url(/images/bg-header-desktop.png);
 overflow: hidden;
 }
+.head img{
+    margin-left: -70px;
+}
 .image{
     text-align: center;
     display: block;
