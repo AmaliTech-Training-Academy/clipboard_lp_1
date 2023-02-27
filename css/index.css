@@ -65,7 +65,7 @@ h2{
     font-size: 24px;
     font-weight: 600;
 }
-h3{
+h3, h4{
 color: #4C545C;
 font-size: 36px;
 }
@@ -501,6 +501,15 @@ width: 311px;
     padding: 0;
     width: 100%;
     margin-left: 5%;
+}
+h4{
+    
+    width: 311px;
+    font-size: 28px;
+    color: #4C545C;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: -50px;
 }
 h3{
     width: 311px;
