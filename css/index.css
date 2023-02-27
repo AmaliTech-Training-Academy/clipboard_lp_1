@@ -35,6 +35,10 @@ overflow: hidden;
     padding-bottom: 20px;
 
 }
+.second{
+    position: relative;
+    padding-left: 509px;
+}
 .first p{
     width: 639px;
 }
