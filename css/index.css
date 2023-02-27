@@ -33,6 +33,7 @@ overflow: hidden;
 .first, .second{
     text-align: center;
     padding-bottom: 20px;
+
 }
 .first p{
     width: 639px;
@@ -296,7 +297,7 @@ footer .social img:not(:first-child){
  }
  .second{
     width: 100%;
-    padding: 0;
+    padding-left: 373px;
  }
  .second h1{
     font-family: Bai Jamjuree SemiBold;
