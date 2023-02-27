@@ -167,7 +167,6 @@ p{
     width: 291px;
     text-align: center;
     line-height: 30px;
-    margin-left: 161px;
 }
 .one.two p{
     width: 309px;
@@ -457,7 +456,7 @@ h2{
 
 .first.two p{
 padding-top: 20px;
-margin-left: -45px;
+margin-left: -40px;
 font-family: 'Bai Jamjuree';
 font-size: 16px;
 font-weight: 400;
@@ -495,7 +494,7 @@ width: 311px;
 .list .one p{
     width: 26%;
     padding-top: 12px;
-    margin-left: -100px;
+    margin-left: -140px;
     text-align: center;
 }
 .list .part{
