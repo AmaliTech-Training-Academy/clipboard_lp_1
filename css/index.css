@@ -20,36 +20,43 @@ body{
     background: url(/images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
-    padding-top: 0;
-
+    padding-top: 0
 }
 .head img{
     padding-top: 20px;
     padding-bottom: 56px;
     position: relative;
     top: 53px;
-   left: -86px;
-   right: -151px;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .second{
     position: relative;
-    padding-top: 60px;;
-}
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
 .second h1{
     color: #4C545C;
     font-size: 46px;
     letter-spacing: -0.75px;
     font-weight: 600;
-    text-align: center;
-    padding-left: 198px;
     width: 730px;
+    padding-left: 365px; 
+    padding-right: 365px;
 
 }
 .second p{
     color:#9EABB2;
-    text-align: center;
-    width: 50%;
-    padding-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
     letter-spacing: 0.15px;
     line-height: 30px;
     vertical-align: top;
@@ -86,34 +93,50 @@ border: none;
     border-radius: 28px;
     color: #fff;
     font-size: 18px;
+    margin-left: 17px;
 
 }
 .fourth{
-    padding-top: 155px;
-}
-.fourth h1{
-    text-align: left;
-    padding-left: 338px;
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    }
+.fourth h3{
+    width: 730px;;
     color:  #4C545C;
     font-size: 36px;
     font-family: 'Bai Jamjuree';
     font-weight: 600;   
+    display: flex;
+    justify-content: center;
+
+    
+
 }
 .fourth p{
  
     color:#9EABB2;
     text-align: center;
     width: 70%;
-    padding-left: 210px;
+    padding-left: 93px;
     letter-spacing: 0.15px;
-    line-height: 30px;
+    line-height: 35px;
     vertical-align: top;
     font-size: 20px;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .third{
     display: flex;
     width: 1212px;
+    padding-top: 66px;
+    padding-bottom: 114px;
 }
 .image-computer{
     width: 252px;
@@ -121,9 +144,12 @@ border: none;
     margin-left: -55px;
     padding-right: 219px;
 }
+.image-computer img{
+    width: 542px;
+}
 .third .items{
-padding-left: 350px;       
- padding-top: 100px;
+padding-left: 232px;       
+ 
     
 }
 .item h2{
@@ -146,7 +172,8 @@ font-weight: 600;
 }
 .first.two h1{
     color: #4C545C;
-        text-align: left;
+    
+
         padding-left: 269px;
         font-size: 36px;
         width: 730px;
@@ -154,8 +181,9 @@ font-weight: 600;
 }
 .first.two p{
     color:  #9EABB2;
-    width: 60%;
-    padding-left: 146px;
+    width: 59%;
+    
+    padding-left: 280px;
     line-height: 30px;
 
 }
@@ -181,19 +209,31 @@ padding-left: 200px;
    padding-left: 200px;
    padding-bottom: 40px;
 }
+.list .one{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+}
+
 .list{
     display: flex;
     width: 100%;
     padding-left: 0;
+    justify-content: center;
+    align-items: center
 }
 .list .one img{
 margin-left: 0;
-padding-left: 139px;
+padding-left: 5px;
 }
 .list .one h3{
     font-weight: 600;
     font-size: 24px;
     color: #4C545C;
+    margin-bottom: 0;
 }
 .list .one p{
     font-weight: 400;
@@ -201,10 +241,24 @@ padding-left: 139px;
     line-height: 30px;
     letter-spacing: 0.12px;
     color:  #9EABB2;
+    width: 90%;
+    
+}
+.list .one.two p{
+display: flex;
+flex-direction: column;
+width: 130%;
+}
+.list .one.three p{
+    display: flex;
+    flex-direction: column;
+    width: 119%;
+    padding-left: 79px;
 }
 .part{
     width: 1110px;
-    padding-left: 190px;
+    padding-left: 80px;
+    padding-top: 130px;
 }
 .part img{
     padding-right: 70px;
@@ -266,7 +320,7 @@ li a{
     color: #4C545C;
 }
 footer .social{
-    margin-top: -58px;
+    margin-top: 20px;
     
 } 
 footer .social img{
@@ -275,4 +329,159 @@ footer .social img{
 footer .social img:not(:first-child){
     padding-left: 25px;
 
+
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 425px;
+        overflow-x: hidden;
+        
+}
+p{
+    font-size: 16px;
+}
+.container{
+    
+}
+.head{
+background: url(/images/bg-header-mobile.png);
+background-repeat: no-repeat;
+background-size: contain;
+padding-top: 0;
+width: 425px;
+overflow: hidden;
+}
+.symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second h1{
+    width: 72%;
+    padding-left: 362px;
+    font-size: 32px;
+}
+.second p{
+    width: 92%;
+    font-style: 16px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+.buttons .one{
+    margin-left: 86px;
+    margin-bottom: 30px;
+    width: 311px;
+}
+.buttons .two{
+    margin-left: 86px;
+    width: 311px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+.list .one{
+
+}
+.part{
+    display: flex;
+    flex-direction: column;
+}
+.part{
+    width: 139px;
+}
+.fourth h3{
+    width: 70%;
+    padding-left: 13px;
+    font-size: 28px;
+}
+.fourth p{
+    width: 73%;
+    font-size: 16px;
+}
+.image-computer{
+    padding-bottom: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 59px;
+}
+.image-computer img{
+    width: 312px;
+    margin-left: 0;
+    padding-left: 51px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.first.two{
+    margin-top: 0;
+}
+.third .items{
+    padding-left: 113px;
+    padding-top: 60px;
+}
+.item p{
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: -28px;
+}
+.item h2{
+    display: flex;
+    padding-left: 82px;
+}
+.first.two{
+    padding-left: 99px;
+}
+.first.two h1{
+    padding-left: 20px;
+    width: 100%;
+    font-size: 28px;
+}
+.first.two p{
+    padding-left: 16px;
+    width: 95%;
+}
+.computers{
+    padding-left: 103px;
+}
+.computers img{
+    width: 311px;
+    margin-left: 0px;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.first h4{
+    width: 90%;
+    padding-left: 101px;
+    text-align: center;
+}
+.first p{
+    padding-left: 150px;
+    width: 70%;
+    font-size: 16px;   
+}
+.list .one p{
+    margin-left: -114px;
+}
+.list .one h3{
+    margin-left: -75px;
+}
+.list .one img{
+    margin-left: -30px;
+}
 }
