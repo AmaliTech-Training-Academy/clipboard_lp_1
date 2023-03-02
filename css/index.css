@@ -27,6 +27,7 @@ body{
     padding-bottom: 56px;
     position: relative;
     top: 53px;
+    width: 125px;
 }
 .symbol{
     display: flex;
@@ -135,7 +136,7 @@ border: none;
 .third{
     display: flex;
     width: 1212px;
-    padding-top: 66px;
+    padding-top: 22px;
     padding-bottom: 114px;
 }
 .image-computer{
@@ -172,6 +173,7 @@ font-weight: 600;
 }
 .first.two h1{
     color: #4C545C;
+    margin-bottom: -10px;
     
 
         padding-left: 269px;
@@ -182,9 +184,10 @@ font-weight: 600;
 .first.two p{
     color:  #9EABB2;
     width: 59%;
-    
+    font-size: 16px;
     padding-left: 280px;
     line-height: 30px;
+    padding-top: 17px;
 
 }
 .computers{
@@ -360,13 +363,14 @@ overflow: hidden;
     align-items: center;
 }
 .second h1{
-    width: 72%;
+    width: 75%;
     padding-left: 362px;
     font-size: 32px;
 }
 .second p{
-    width: 92%;
-    font-style: 16px;
+    width: 74%;
+    font-size: 16px;
+    padding-left: 23px;
 }
 .buttons{
     display: flex;
@@ -390,10 +394,7 @@ overflow: hidden;
 .list{
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-}
-.list .one{
-
+    padding-left: 72px;
 }
 .part{
     display: flex;
@@ -404,7 +405,7 @@ overflow: hidden;
 }
 .fourth h3{
     width: 70%;
-    padding-left: 13px;
+    padding-left: 64px;
     font-size: 28px;
 }
 .fourth p{
@@ -426,16 +427,17 @@ overflow: hidden;
 }
 .first.two{
     margin-top: 0;
+    padding-top: 129px;
 }
 .third .items{
     padding-left: 113px;
     padding-top: 60px;
 }
 .item p{
-    width: 30%;
+    width: 27%;
     text-align: center;
     font-size: 16px;
-    margin-left: -28px;
+    margin-left: -2px;
 }
 .item h2{
     display: flex;
@@ -467,21 +469,283 @@ overflow: hidden;
 }
 .first h4{
     width: 90%;
-    padding-left: 101px;
+    padding-left: 54px;
     text-align: center;
+    font-size: 28px;
 }
 .first p{
-    padding-left: 150px;
+    padding-left: 96px;
     width: 70%;
     font-size: 16px;   
 }
 .list .one p{
-    margin-left: -114px;
+    
+    padding-left: 50%;
+    padding-right: 50%;
 }
 .list .one h3{
-    margin-left: -75px;
 }
 .list .one img{
     margin-left: -30px;
+}
+.list .one.two p{
+    width: 95%;
+}
+.list .one.three p{
+    width: 99%;
+    padding-left: 193px;
+} 
+.first.fifth{
+
+}
+.first.fifth p{
+    padding-left: 96px;
+}
+.icons{
+ padding-left: 130px;   
+}
+.second.two p{
+    width: 73%;
+
+}
+.part img{
+    width: 139px;
+    padding-bottom: 59px;
+}
+.part{
+    padding-left: 48px;
+}
+footer .container-flex{
+    display: flex;
+    flex-direction: column;
+}
+.container-flex .one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links li  a{
+    padding-left: 160px;
+}
+footer .social{
+    padding-left: 120px;
+}
+footer .social img{
+    padding-left: 60px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        width: 1000px;
+        overflow-x: hidden;
+        
+
+}
+p{
+font-size: 16px;
+}
+.container{
+
+}
+.head{
+background: url(/images/bg-header-mobile.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 0;
+width: 100%;
+overflow: hidden;
+margin: 0;
+}
+.symbol{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.second h1{
+width: 30%;
+padding-left: 348px;
+font-size: 32px;
+}
+.second p{
+width: 32%;
+font-size: 16px;
+
+}
+.buttons{
+display: flex;
+flex-direction: column;
+margin-left: 0;
+padding-left: 247px;
+}
+.buttons .one{
+margin-left: 86px;
+margin-bottom: 30px;
+width: 311px;
+}
+.buttons .two{
+margin-left: 86px;
+width: 311px;
+}
+.third{
+display: flex;
+flex-direction: column;
+padding-bottom: 0;
+}
+.list{
+display: flex;
+flex-direction: column;
+padding-left: 72px;
+}
+.part{
+display: flex;
+flex-direction: column;
+}
+.part{
+width: 139px;
+}
+.second.fourth{
+    margin-left: -490px;
+}
+.fourth h3{
+width: 20%;
+padding-left: 414px;
+font-size: 28px;
+}
+.fourth p{
+width: 21%;
+font-size: 16px;
+padding-left: 440px;
+}
+.image-computer{
+padding-bottom: 0;
+margin-left: 0;
+padding-right: 0;
+padding-left: 250px;
+}
+.image-computer img{
+width: 312px;
+margin-left: 0;
+padding-left: 51px;
+padding-right: 0;
+padding-bottom: 0;
+}
+.first.two{
+margin-top: 0;
+margin-left: -445px;
+padding-top: 129px;
+}
+.third .items{
+padding-left: 299px;
+padding-top: 60px;
+}
+.item p{
+width: 34%;
+text-align: center;
+font-size: 16px;
+margin-left: -2px;
+}
+.item h2{
+display: flex;
+padding-left: 82px;
+}
+.first.two{
+padding-left: 341px;
+}
+.first.two h1{
+padding-left: 423px;
+width: 23%;
+font-size: 28px;
+}
+.first.two p{
+padding-left: 443px;
+width: 24%;
+}
+.computers{
+padding-left: 270px;
+}
+.computers img{
+width: 311px;
+margin-left: 0px;
+padding-left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+}
+.first h4{
+width: 28%;
+padding-left: 146px;
+text-align: center;
+font-size: 28px;
+}
+.first p{
+padding-left: 150px;
+width: 70%;
+font-size: 16px;   
+}
+.list{
+    margin-left: 0px;
+    padding-left: 0;
+}
+.list .one p{
+
+padding-left: 50%;
+padding-right: 50%;
+width: 45%;
+}
+.list .one h3{
+}
+.list .one img{
+margin-left: -30px;
+}
+.list .one.two p{
+width: 65%;
+}
+.list .one.three p{
+width: 45%;
+padding-left: 350px;
+}
+.first.fifth{
+    padding-left: 150px;
+}
+ .first.fifth p {
+    padding-left: 140px;
+    width: 29%;
+}
+.icons{
+padding-left: 319px;   
+}
+.part img{
+width: 139px;
+padding-bottom: 59px;
+}
+.part{
+padding-left: 48px;
+}
+footer .container-flex{
+display: flex;
+flex-direction: column;
+}
+.container-flex .one{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.links li  a{
+padding-left: 150px;
+}
+footer .social{
+    padding-left: 120;
+}
+footer .social img{
+padding-left: 60px;
+}
+.second.two h1{
+    width: 32%;
+    padding-left: 280px;
 }
 }
